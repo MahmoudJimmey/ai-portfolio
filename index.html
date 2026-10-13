@@ -1,210 +1,68 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Mahmoud Gamal Eldeen — AI Marketing & Automation Portfolio</title>
-<meta name="description" content="Interactive portfolio of AI marketing agents, marketing automation and SEO systems built by Mahmoud Gamal Eldeen (Cairo, Egypt).">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
-<style>
-:root{--bg:#0b1020;--panel:#121a30;--panel2:#18223d;--line:#24304f;--txt:#e8ecf6;--mut:#94a0bd;--acc:#7c5cff;--acc2:#22d3ee;--good:#34d399}
-body.schneider{--acc:#3dcd58;--acc2:#a3e635}
-body.mg{--acc:#8b5cf6;--acc2:#22d3ee}
-*{box-sizing:border-box}html{scroll-behavior:smooth}
-body{margin:0;background:radial-gradient(1200px 600px at 80% -10%,color-mix(in srgb,var(--acc) 22%,transparent),transparent),var(--bg);color:var(--txt);font:15px/1.6 Inter,system-ui,sans-serif;transition:background .4s}
-a{color:var(--acc2)}
-.wrap{max-width:1180px;margin:0 auto;padding:0 22px}
-nav{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
-nav .wrap{display:flex;align-items:center;gap:18px;height:60px}
-.logo{font-weight:800;letter-spacing:-.02em}.logo span{color:var(--acc)}
-nav .links{margin-left:auto;display:flex;gap:16px;font-size:14px}nav .links a{color:var(--mut);text-decoration:none}nav .links a:hover{color:var(--txt)}
-.lens{display:flex;gap:6px;background:var(--panel);border:1px solid var(--line);padding:4px;border-radius:999px}
-.lens button{all:unset;cursor:pointer;padding:6px 12px;border-radius:999px;font-size:13px;color:var(--mut);font-weight:600}
-.lens button.on{background:var(--acc);color:#fff}
-header{padding:64px 0 30px}
-.eyebrow{font:500 12px 'JetBrains Mono',monospace;color:var(--acc2);letter-spacing:.12em;text-transform:uppercase}
-h1{font-size:clamp(32px,5vw,54px);line-height:1.08;letter-spacing:-.03em;margin:12px 0 14px;font-weight:800}
-h1 em{font-style:normal;background:linear-gradient(90deg,var(--acc),var(--acc2));-webkit-background-clip:text;background-clip:text;color:transparent}
-.lead{font-size:18px;color:var(--mut);max-width:780px}
-.cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
-.btn{display:inline-flex;align-items:center;gap:8px;padding:10px 16px;border-radius:10px;border:1px solid var(--line);color:var(--txt);text-decoration:none;font-weight:600;font-size:14px;background:var(--panel)}
-.btn.p{background:var(--acc);border-color:var(--acc);color:#fff}
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:12px;margin:34px 0 10px}
-.stat{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
-.stat b{display:block;font-size:30px;font-weight:800;letter-spacing:-.02em}
-.stat span{color:var(--mut);font-size:13px}
-section{padding:38px 0}
-h2{font-size:26px;letter-spacing:-.02em;margin:0 0 6px}.sub{color:var(--mut);margin:0 0 22px}
-.fit{display:grid;gap:10px}
-.fitrow{display:grid;grid-template-columns:1fr 1.4fr auto;gap:14px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 16px}
-.fitrow .req{font-weight:600}.fitrow .ev{color:var(--mut);font-size:14px}
-.chip{display:inline-block;font-size:12px;padding:3px 9px;border-radius:999px;border:1px solid var(--line);color:var(--mut);margin:2px 4px 2px 0;background:var(--panel2)}
-.pill{font:600 11px 'JetBrains Mono',monospace;padding:4px 8px;border-radius:6px;background:color-mix(in srgb,var(--good) 18%,transparent);color:var(--good);white-space:nowrap}
-.pill.part{background:color-mix(in srgb,#fbbf24 18%,transparent);color:#fbbf24}
-.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
-.filters button{all:unset;cursor:pointer;padding:7px 14px;border-radius:999px;border:1px solid var(--line);font-size:13px;color:var(--mut);background:var(--panel)}
-.filters button.on{border-color:var(--acc);color:var(--txt);background:color-mix(in srgb,var(--acc) 20%,var(--panel))}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:16px}
-.card{position:relative;background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:16px;padding:20px;cursor:pointer;transition:transform .2s,border-color .2s;display:flex;flex-direction:column}
-.card:hover{transform:translateY(-3px);border-color:var(--acc)}
-.card.feat::before{content:"Top match";position:absolute;top:14px;right:14px;font:600 11px 'JetBrains Mono',monospace;color:var(--acc2)}
-.card h3{margin:0 0 2px;font-size:17px;padding-right:70px}.card .br{font-size:12px;color:var(--acc2);margin-bottom:10px}
-.card p{color:var(--mut);font-size:14px;margin:0 0 14px;flex:1}
-.kp{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;border-top:1px solid var(--line);padding-top:12px}
-.kp div b{display:block;font-size:17px}.kp div span{font-size:11px;color:var(--mut)}
-.status{display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--good);margin-bottom:8px}.status::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--good);box-shadow:0 0 8px var(--good)}
-.flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
-.node{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px;min-width:150px;flex:1}
-.node b{display:block;font-size:14px}.node span{font-size:12px;color:var(--mut)}
-.arr{color:var(--acc);font-size:20px}
-.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
-.sk{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px}
-.sk h4{margin:0 0 12px}.bar{margin:9px 0}.bar div{display:flex;justify-content:space-between;font-size:13px}
-.bar i{display:block;height:6px;border-radius:9px;background:var(--line);margin-top:4px;overflow:hidden}
-.bar i s{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--acc),var(--acc2));transition:width 1.2s ease}
-.tl{border-left:2px solid var(--line);margin-left:6px;padding-left:22px}
-.ti{position:relative;margin-bottom:20px}.ti::before{content:"";position:absolute;left:-29px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--acc);box-shadow:0 0 0 4px var(--bg)}
-.ti b{font-size:15px}.ti .d{font:500 12px 'JetBrains Mono',monospace;color:var(--acc2)}.ti p{margin:3px 0 0;color:var(--mut);font-size:14px}
-dialog{max-width:760px;width:calc(100% - 30px);background:var(--panel);color:var(--txt);border:1px solid var(--line);border-radius:18px;padding:0}
-dialog::backdrop{background:rgba(3,6,15,.75);backdrop-filter:blur(3px)}
-.mh{padding:24px 26px 6px}.mb{padding:0 26px 26px}
-.mh h3{margin:0;font-size:22px}.x{float:right;all:unset;cursor:pointer;font-size:22px;color:var(--mut);float:right}
-.mb h5{margin:18px 0 6px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--acc2)}
-.mb ul{margin:0;padding-left:18px}.mb li{margin:4px 0;color:#cfd6e8}
-footer{border-top:1px solid var(--line);padding:30px 0 50px;color:var(--mut);font-size:14px}
-@media(max-width:760px){nav .links{display:none}.fitrow{grid-template-columns:1fr}.lens button{padding:6px 9px}}
-</style></head>
+<title>Mahmoud Gamal, AI marketing and automation</title><meta name="description" content="Senior digital marketer in Cairo who builds AI agents that research, write, design and publish marketing content.">
+<meta property="og:title" content="Mahmoud Gamal, AI marketing and automation"><meta property="og:description" content="Senior digital marketer in Cairo who builds AI agents that research, write, design and publish marketing content."><meta property="og:image" content="https://mahmoudjimmey.github.io/ai-portfolio/img/scoop_1.jpg">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="stylesheet" href="site.css"></head>
 <body>
-<nav><div class="wrap"><div class="logo">Mahmoud<span>.</span>AI</div>
-<div class="links"><a href="#fit">Job fit</a><a href="#work">Work</a><a href="#how">Method</a><a href="#skills">Skills</a><a href="#career">Career</a></div>
-<div class="lens" role="tablist" aria-label="View for"><button data-l="all">All</button><button data-l="mg">MG Digital</button><button data-l="schneider">Schneider</button></div></div></nav>
-
-<header class="wrap">
- <div class="eyebrow" id="eyebrow">AI Marketing · Marketing Automation · SEO</div>
- <h1 id="headline">I build <em>AI marketing systems</em> that research, write, design and publish, with humans approving every step.</h1>
- <p class="lead" id="lead"></p>
- <div class="cta">
-  <a class="btn p" href="mailto:contact.mahmoudgamal@gmail.com">✉ contact.mahmoudgamal@gmail.com</a>
-  <a class="btn" href="https://www.linkedin.com/in/mahmoud-gamal-eldeen" target="_blank" rel="noopener">in LinkedIn</a>
-  <a class="btn" href="https://github.com/MahmoudJimmey" target="_blank" rel="noopener">⌥ GitHub</a>
- </div>
- <div class="stats">
-  <div class="stat"><b data-c="700">0</b><span>qualified leads in a single month (4 campaigns)</span></div>
-  <div class="stat"><b>1.45%</b><span>Meta CTR on EGP 10M/month, ~60% above benchmark</span></div>
-  <div class="stat"><b data-c="470" data-s="K+">0</b><span>video plays in one month as on-camera presenter</span></div>
-  <div class="stat"><b data-c="10">0</b><span>AI & automation systems built</span></div>
-  <div class="stat"><b data-c="5">0</b><span>production bots running 24/7 in the cloud</span></div>
-  <div class="stat"><b data-c="4">0</b><span>Instagram brands automated end-to-end</span></div>
-  <div class="stat"><b data-c="190" data-s="+">0</b><span>SEO articles published · page-one rankings</span></div>
- </div>
-</header>
-
-<section id="fit" class="wrap">
- <h2 id="fitTitle">How my work maps to the role</h2><p class="sub" id="fitSub"></p>
- <div class="fit" id="fitList"></div>
-</section>
-
-<section id="work" class="wrap">
- <h2>Selected work</h2><p class="sub">Click any project for the problem, the build, the AI techniques and the stack.</p>
- <div class="filters" id="filters"></div>
- <div class="grid" id="grid"></div>
-</section>
-
-<section id="how" class="wrap">
- <h2>My AI-marketing operating model</h2><p class="sub">The same pattern runs behind every system: automate the routine work, keep humans on judgement, and learn from every edit.</p>
- <div class="flow">
-  <div class="node"><b>1 · Sense</b><span>RSS, news, search results, social & group monitoring</span></div><div class="arr">→</div>
-  <div class="node"><b>2 · Understand</b><span>LLM clustering, extraction, ranking by audience & pillar</span></div><div class="arr">→</div>
-  <div class="node"><b>3 · Create</b><span>Bilingual copy, carousels, AI imagery on brand templates</span></div><div class="arr">→</div>
-  <div class="node"><b>4 · Verify</b><span>Fact-check vs sources, vision QA, brand rules</span></div><div class="arr">→</div>
-  <div class="node"><b>5 · Approve</b><span>One-tap WhatsApp / Telegram review loops</span></div><div class="arr">→</div>
-  <div class="node"><b>6 · Publish & learn</b><span>Scheduled posting, edits become reusable rules</span></div>
- </div>
-</section>
-
-<section id="skills" class="wrap">
- <h2>Skills</h2><p class="sub">Self-assessed, with a project behind each one.</p>
- <div class="skills" id="skillsEl"></div>
-</section>
-
-<section id="career" class="wrap">
- <h2>Career path</h2><p class="sub">From civil engineer to real-estate consultant to SEO and AI marketing.</p>
- <div class="tl">
-  <div class="ti"><div class="d">MAR 2026 – PRESENT</div><b>Senior Digital Marketing Specialist & Video Presenter — The Address Investments</b><p>Creative strategy and campaign operations on an EGP 10M/month Meta budget: 700 qualified leads in one month, 1.45% CTR, 470K+ video plays, 10–12 activations a month. Built the AI newsroom, intelligence digest and trend radar for Address Scoop.</p></div>
-  <div class="ti"><div class="d">JAN 2026 – PRESENT</div><b>Founder & Automotive Content Creator — Autologist</b><p>Arabic motorsport brand: 50K+ TikTok views in under 3 months, plus an AI carousel bot that publishes to Instagram.</p></div>
-  <div class="ti"><div class="d">2025 – PRESENT</div><b>SEO Consultant — Freelance (Upwork)</b><p>4+ international clients, first-90-day organic growth, 100% retention. Built SEO Suite to run audits and monitoring.</p></div>
-  <div class="ti"><div class="d">2025 – 2026</div><b>SEO Specialist — The Address Holding</b><p>Full-funnel and technical SEO, Core Web Vitals, and GTM/GA4/Consent Mode specs for developers.</p></div>
-  <div class="ti"><div class="d">2023 – 2025</div><b>SEO Specialist & Content Writer — EstateBook</b><p>Page-one rankings for 2 competitive keywords, 190+ SEO articles.</p></div>
-  <div class="ti"><div class="d">2020 – 2023</div><b>Civil Engineer → Property Consultant</b><p>Naval-base infrastructure (GIECO), then 3 years advising buyers and working with developers (The Address Investments, Coldwell Banker, aqarpedia).</p></div>
-  <div class="ti"><div class="d">2013 – 2019</div><b>B.Sc. Civil Engineering — Alexandria University</b></div>
- </div>
-</section>
-
-<footer><div class="wrap">© 2026 Mahmoud Gamal Eldeen · Cairo, Egypt · Built by me with AI-assisted development. Client data and credentials are not shown.</div></footer>
-
-<dialog id="dlg"><div class="mh"><button class="x" onclick="dlg.close()" aria-label="Close">×</button><div class="status" id="mStatus"></div><h3 id="mName"></h3><div class="br" id="mBrand" style="color:var(--acc2);font-size:13px"></div></div><div class="mb" id="mBody"></div></dialog>
-
-<script>
-const P=[{"id": "scoopbot", "name": "ScoopBot — AI Newsroom Agent", "brand": "Address Scoop · @addressscoop", "cat": ["agents", "content", "automation"], "status": "Live 24/7", "tag": "Turns Egypt's real-estate news into fact-checked, bilingual Instagram carousels with a 3-role human approval loop.", "problem": "A real-estate advisory page had to publish fast, accurate market news in English and Egyptian Arabic. Every post meant research, copy, translation, fact-checking and design, all done by hand.", "how": ["Scans 19 RSS feeds, 13 competitor and outlet sites and 30 Arabic/English topic queries four times a day, then groups stories by content pillar and audience segment", "For each topic the team picks, it reads every source article and writes a 3–5-slide carousel with English and Egyptian-Arabic captions", "Fact-checks every claim against the sources (headline-truth and bias tests). Numbers are locked: if the humanizer pass changes a figure, that text is discarded", "Picks real photos first and has a vision model score them, generates an AI image only as a fallback, then renders slides on the designer's brand templates at 2160×2700", "Runs WhatsApp approval loops for the content writer, designer and owner, and suggests the best posting time", "Self-learning: every human edit is checked for a general rule, stored as a 'lesson' and added to future prompts"], "ai": ["LLM drafting & rewriting", "Automated fact-checking", "Vision-model image QA", "Generative imagery fallback", "Feedback-to-rules learning loop"], "stack": ["Node.js", "Gemini API", "WhatsApp (Baileys)", "Playwright rendering", "Oracle Cloud (Linux, systemd)"], "kpis": [["62+", "sources scanned / run"], ["4×", "daily news scans"], ["2", "languages per post"]]}, {"id": "seosuite", "name": "SEO Suite — Multi-site SEO/SEM Command Center", "brand": "Freelance clients & in-house sites", "cat": ["seo", "automation", "analytics"], "status": "Live 24/7", "tag": "A Screaming-Frog-level crawler plus rank, content and SEM monitoring, all delivered as alerts in a Telegram workspace.", "problem": "Client SEO work needed deep technical audits and constant monitoring across many sites, and paid desktop tools were expensive and manual.", "how": ["About 90-check technical audit with an Excel pass/fail report, crawling up to 5,000 pages, with optional full JavaScript rendering and raw-vs-rendered comparisons", "An AI site profile, then competitor discovery from live search results for seed keywords", "Scheduled rank tracking, content checks, SEM/campaign research, 15-minute uptime checks and a 6-hourly technical monitor", "Alert lifecycle: each alert is sent once, critical ones get a reminder, and a 'Resolved' message follows the fix. Weekly summaries go to topic threads", "List mode (URLs, sitemaps, CSV/XLSX) and custom CSS/XPath/regex extraction"], "ai": ["LLM site profiling", "AI keyword & competitor research", "Automated insight summaries"], "stack": ["Node.js", "Playwright/Chromium", "SQLite", "Gemini API", "PageSpeed / GSC / GA4", "Telegram Bot API"], "kpis": [["~90", "audit checks"], ["5,000", "pages per crawl"], ["15 min", "uptime cadence"]]}, {"id": "wagroup", "name": "Developer Market-Intelligence & Launch Bot", "brand": "The Consultant · @the.consultant.realestate", "cat": ["agents", "analytics", "content", "automation"], "status": "Live 24/7", "tag": "Monitors real-estate developer channels, extracts launches and price lists with AI, and auto-designs launch carousels.", "problem": "Developer launches, price lists, brochures and offers arrive scattered across dozens of WhatsApp broker groups every day, and they are easy to miss and slow to organize.", "how": ["Joins and monitors developer broker groups at a safe throttled rate", "AI extracts each update (developer, project, category, date) and normalizes name spellings, and user corrections are remembered", "Classifies files as brochure, unit offer, price list/availability or other, and files them per project in a shared drive (synced hourly)", "Chat commands return info, brochures, offers, prices and latest updates for any project in seconds", "Builds on-brand launch carousels twice a day from new launches, using vision-checked real photos with an AI image fallback, then waits for approval"], "ai": ["LLM information extraction", "Entity normalization", "Document classification", "Vision QA", "Generative design"], "stack": ["Node.js", "Gemini API", "Cloudflare Workers AI (FLUX)", "Playwright", "SQLite", "Oracle Cloud"], "kpis": [["2×", "auto carousels / day"], ["4", "document classes"], ["Hourly", "drive sync"]]}, {"id": "autologist", "name": "Autologist — Car-News Carousel Bot", "brand": "Autologist · @autologist.917", "cat": ["agents", "content", "automation"], "status": "Live 24/7", "tag": "An end-to-end automotive news brand: research, Arabic copy, design, approval in Telegram and auto-publishing to Instagram.", "problem": "A new automotive media brand needed a steady stream of quality Egyptian-Arabic carousels without a full content team.", "how": ["Sources: 7 RSS feeds, 11 Egyptian outlets and 26 Arabic/English queries. AI clusters and ranks the stories (Egypt first, then global, then F1)", "Reads the articles, drafts the slides, runs a fact-check pass and fixes Arabic script look-alike characters", "Image pipeline: article photo, then web search, then Wikimedia. A vision model checks each photo for the exact model and no watermark", "Telegram approvals, edits, research and ideas. Rules are scoped by topic/writing/design/publishing, and a new rule replaces the old ones it contradicts", "Approved posts become few-shot examples and are published on schedule through the Instagram Graph API"], "ai": ["Topic clustering & ranking", "Few-shot style learning", "Vision model verification", "Rule memory with conflict resolution"], "stack": ["Node.js", "Gemini API", "Instagram Graph API", "Telegram Bot API", "Playwright"], "kpis": [["50K+", "TikTok views < 3 months"], ["44", "news sources"], ["100%", "human-approved"]]}, {"id": "ootd", "name": "OOTD — Fully Automated Daily Fashion Brand", "brand": "Outfit of the Day · Instagram", "cat": ["content", "automation", "agents"], "status": "Live daily", "tag": "A daily AI-generated men's outfit post that uses weather, holidays and trends. It costs nothing to run and has one-tap approval.", "problem": "Run a consistent daily fashion account with zero budget and minimal time.", "how": ["Research: 7-day weather, Egyptian holidays and occasions, and live menswear trend feeds", "AI writes the outfit and caption, an image model generates the look, and a second AI pass checks every clothing item (up to 4 retries)", "Sends a Telegram draft with buttons (Approve, Change time, New image, New caption, Skip)", "Scheduled auto-publishing with platform-safety guards: daily API health check, a cap on posts per 20 hours, and alerts"], "ai": ["Context-aware generation", "Text-to-image", "AI self-QA loop", "Human-in-the-loop approval"], "stack": ["Python", "Gemini API", "Cloudflare FLUX", "Instagram Graph API", "cron + systemd"], "kpis": [["$0", "monthly API cost"], ["4", "AI QA retries"], ["1 tap", "to publish"]]}, {"id": "digest", "name": "Address Scoop Daily Intelligence Digest", "brand": "The Address Investments", "cat": ["analytics", "content", "agents"], "status": "Daily", "tag": "A daily AI research digest: market news, on-brand draft posts, suggestions and brand QA in one Excel workbook.", "problem": "The marketing team needed one trusted daily briefing on Egypt's property market, checked against the brand book.", "how": ["About 15 Arabic and English searches across developers, regions, central-bank rates, FX and regulation", "Breaking items from the last 72 hours plus pillar context. Real figures are pulled from the sources and never invented", "Draft posts written against the brand book (values, segments, pillars, tone)", "Branded workbook sheets: Today, News Digest, Draft Posts, Suggestions and Brand QA"], "ai": ["AI research agent", "Brand-guideline compliance", "Grounded citations"], "stack": ["Python", "LLM agent", "openpyxl", "Web search & extraction"], "kpis": [["5", "report sheets"], ["72 h", "freshness window"], ["0", "invented figures"]]}, {"id": "trends", "name": "Real-Estate Trend Scout", "brand": "Instagram content planning", "cat": ["analytics", "automation"], "status": "Daily", "tag": "A daily trend radar: pop-culture and market trends, each with a real-estate angle and the best time to post, sent as a PDF to Telegram.", "problem": "Content needed to ride trends early, but trend hunting by hand is slow and can drift into unsafe topics.", "how": ["Clusters trending headlines from Google News and YouTube views into topics", "Filters out tragedy, politics and risky topics, and tags each trend's type (AI-photo, nostalgia, song, challenge, series)", "Writes an Egyptian-Arabic summary per topic with sources, plus best posting times", "Renders a PDF and delivers it to Telegram. It still runs without LLM credits as a fallback"], "ai": ["Trend clustering", "Content-safety filtering", "AI summarization"], "stack": ["Python", "Headless Chromium PDF", "Telegram Bot API"], "kpis": [["Daily", "PDF report"], ["6+", "trend types"], ["Auto", "safety filter"]]}, {"id": "ta2keed", "name": "Ta2keed — COD Order-Confirmation AI Agent", "brand": "Hackathon: Agents at Work (Untap × Wesam.ai 2026)", "cat": ["agents", "automation"], "status": "Open source", "link": "https://github.com/MahmoudJimmey/Ta2keed", "tag": "An AI agent that confirms, de-risks, ships and follows up cash-on-delivery orders for Egyptian social-commerce shops.", "problem": "Around 1 in 4 cash-on-delivery parcels in Egypt is refused at the door, and shops confirm every DM order by hand.", "how": ["Understands Egyptian Arabic, Franco-Arabic, Arabic-Indic digits and voice notes, and asks only for the missing details", "Upsells a matching item at a discount and logs every offer", "Explainable refusal-risk score. Risky orders are asked for a deposit, and the receipt is verified by AI vision (amount, recipient, reused references and screenshots)", "Books the courier, tracks delivery, asks for a rating and sends a 14-day reorder offer with a personal code", "Safety by design: a deterministic state machine owns prices and money, so the order can't be changed through prompt injection"], "ai": ["Conversational agent", "Voice transcription", "Vision receipt verification", "Risk scoring", "Lifecycle marketing automation"], "stack": ["Python", "Multi-LLM (Gemini/Claude/OpenAI/Groq)", "WhatsApp Cloud API", "Telegram", "Docker/Render"], "kpis": [["11", "automated steps"], ["5", "LLM providers"], ["0", "humans in the loop"]]}, {"id": "autolog", "name": "Autolog — Car Expense App", "brand": "Mobile app · Egypt", "cat": ["product"], "status": "In development", "tag": "An offline-first car cost and maintenance app (petrol, diesel, EV, hybrid) with cloud backup.", "problem": "Egyptian car owners have no simple way to track cost per km and upcoming services.", "how": ["Logs refuels, charges, services and expenses, and shows cost per kilometre and service reminders", "Optional accounts and cloud backup with email OTP sign-in", "Nearby fuel stations through a serverless function", "262 automated tests and a full security audit with a pass/fail sheet"], "ai": ["AI-assisted engineering", "Security audit automation"], "stack": ["React Native / Expo", "TypeScript", "Supabase (Postgres, Edge Functions)", "Jest"], "kpis": [["262", "automated tests"], ["5", "powertrains"], ["Offline", "first"]]}, {"id": "cartoon", "name": "CarToon3D — Photo → Animated 3D Mascot", "brand": "Creative content pipeline", "cat": ["content", "product"], "status": "Working", "tag": "One command turns a car photo into an animated, Pixar-style 3D character for social media and AR, running fully on the laptop.", "problem": "Eye-catching 3D brand content usually needs a 3D artist and paid tools.", "how": ["Background removal, single-image-to-3D reconstruction, then cartoonizing (eyes and smile), rigging and animation", "Outputs a looping MP4, an animated GLB (for web, AR or Unity), a poster image and an editable Blender scene", "Runs fully local and free, with no API keys"], "ai": ["Image-to-3D (TripoSR)", "Background segmentation (rembg)", "Procedural animation"], "stack": ["Python", "Blender", "TripoSR", "rembg"], "kpis": [["~3 min", "per car"], ["4", "output formats"], ["$0", "cost"]]}];
-const CATS={all:"All",agents:"AI agents",content:"AI content",automation:"Marketing automation",seo:"SEO / SEM",analytics:"Market intelligence",product:"Product & creative"};
-const LENS={
- all:{eyebrow:"AI Marketing · Marketing Automation · SEO",
-  h:'I build <em>AI marketing systems</em> that research, write, design and publish, with humans approving every step.',
-  lead:"Senior digital marketer (700 leads in a month, 1.45% Meta CTR on EGP 10M/month), SEO specialist and civil engineer by training. I also design AI agents and automations that run real brands every day: newsrooms, content engines, market-intelligence bots and SEO monitoring, built in Node.js and Python on free-tier cloud.",
-  order:["scoopbot","seosuite","wagroup","autologist","ootd","ta2keed","digest","trends","cartoon","autolog"],feat:[],fit:null},
- mg:{eyebrow:"For MG Digital · AI Marketing Specialist (Remote)",
-  h:'AI isn\u2019t a side tool in my marketing. <em>It is the workflow.</em>',
-  lead:"Performance marketer by day (EGP 10M/month Meta budget, 1.45% CTR, 700 qualified leads in a month), AI builder by design. I already do this job every day: I build AI-powered marketing solutions, automate repetitive marketing work, generate and improve content with LLMs, and analyse performance with AI. Below, each requirement in your posting is mapped to a system I built and run.",
-  order:["scoopbot","autologist","ootd","wagroup","seosuite","ta2keed","trends","digest","cartoon","autolog"],feat:["scoopbot","autologist","ootd"],
-  fitTitle:"MG Digital requirements → my evidence",fitSub:"Matched against the AI Marketing Specialist posting.",
-  fit:[["Implement AI-powered marketing solutions","ScoopBot and Autologist: AI newsrooms that research, write, design and publish for live Instagram brands",1],
-   ["Automate repetitive marketing tasks","OOTD daily posting, developer-update extraction, document filing, hourly sync, scheduled publishing",1],
-   ["AI for content generation & optimization","Bilingual AR/EN carousels, captions, AI imagery with vision QA, and a humanizer pass with number locks",1],
-   ["Analyze campaign data with AI/ML tools","Turn GA4 and Looker Studio data into creative briefs (1.45% CTR on EGP 10M/month). SEO Suite: ranks, SEM, content and technical monitoring with AI summaries and Excel reports",1],
-   ["ChatGPT / Claude / Gemini · prompt engineering","Production prompts with few-shot examples, scoped rule memory and fact-check chains. Multi-provider (Gemini, Claude, OpenAI, Groq)",1],
-   ["Marketing automation · Zapier-style workflows","Custom event-driven pipelines (cron, webhooks, Telegram/WhatsApp, Instagram Graph API) in place of no-code tools",1],
-   ["Python basics","Python pipelines: OOTD, daily digest, trend scout, Ta2keed agent and CarToon3D",1],
-   ["Train team on AI tool adoption","Designed the approval workflows our content writer, designer and owner use every day, with edits turned into reusable AI rules",1],
-   ["Machine learning / fine-tuning (preferred)","Applied ML (vision QA, image-to-3D, risk scoring), with few-shot learning loops instead of fine-tuning",0]]},
- schneider:{eyebrow:"For Schneider Electric · Regional Digital Buildings Senior Marketing Engineer",
-  h:'An engineer who knows the <em>building ecosystem</em> and markets with data and AI.',
-  lead:"B.Sc. Civil Engineering, 3 years working directly with Egypt's developers, investors and end users, and now Senior Digital Marketing Specialist driving 700 qualified leads a month on an EGP 10M/month budget. I turn market signals into go-to-market insight, demand generation and measurable digital performance.",
-  order:["wagroup","digest","seosuite","scoopbot","trends","ta2keed","autologist","ootd","autolog","cartoon"],feat:["wagroup","digest","seosuite"],
-  fitTitle:"Schneider Electric requirements → my evidence",fitSub:"Matched against the Digital Buildings Senior Marketing Engineer posting (Cairo, hybrid).",
-  fit:[["Bachelor's degree in Engineering","B.Sc. Civil Engineering, Alexandria University. Field engineer on naval-base infrastructure",1],
-   ["Building ecosystem: developers, consultants, end users","3 years as a property consultant (The Address Investments, Coldwell Banker, aqarpedia), plus a bot that tracks developer launches and price lists",1],
-   ["Market trends, customer needs, competitive insight","Daily market-intelligence digest, developer-launch tracker, competitor discovery and trend radar",1],
-   ["Demand generation & campaign execution","700 qualified leads in one month across 4 campaigns, 10–12 activations a month, BTL + digital, plus SEO/SEM",1],
-   ["Track performance & optimize ROI","1.45% Meta CTR (~60% above benchmark) on EGP 10M/month, with GA4 and Looker Studio insight-to-brief loops. SEO Suite monitoring",1],
-   ["Positioning, messaging & storytelling · events","On-camera presenter (470K+ plays in a month), brand governance, BTL activations, content on smart homes, PropTech and sustainability",1],
-   ["Bridge Sales, Channel & Marketing","Coordinate content, design and media-buying teams with sales conversion targets. Former property consultant. Write technical specs for developers",1],
-   ["Arabic & English","Native Arabic, professional English. All systems publish in both",1],
-   ["Smart Buildings / BMS / GRMS product marketing","Engineering background, but no direct BMS product-marketing experience yet. I learn fast and have the technical base",0]]}
-};
-const SK=[["AI & LLM marketing",[["Prompt engineering & LLM pipelines",92],["AI content generation (AR/EN)",92],["Vision / image AI & QA",82],["AI agents & tool use",88]]],
- ["Marketing automation",[["Workflow & bot automation",92],["Social publishing APIs (Meta/IG)",85],["CRM lead management & lifecycle flows",78],["Scheduling, monitoring, alerting",88]]],
- ["Digital marketing",[["Technical SEO & audits",92],["Content strategy & copywriting",88],["Meta Ads & Google Ads",85],["Analytics (GA4, GTM, Looker Studio)",85]]],
- ["Engineering & data",[["Node.js / JavaScript",85],["Python",80],["Cloud & Linux ops",78],["Excel reporting & dashboards",85]]]];
-let lens="all",cat="all";
-const $=s=>document.querySelector(s);
-function renderFilters(){$("#filters").innerHTML=Object.entries(CATS).map(([k,v])=>`<button class="${k==cat?'on':''}" data-c="${k}">${v}</button>`).join("");
- document.querySelectorAll("#filters button").forEach(b=>b.onclick=()=>{cat=b.dataset.c;renderFilters();renderGrid()});}
-function renderGrid(){const L=LENS[lens];const list=L.order.map(id=>P.find(p=>p.id==id)).filter(p=>cat=="all"||p.cat.includes(cat));
- $("#grid").innerHTML=list.map(p=>`<div class="card ${L.feat.includes(p.id)?'feat':''}" data-id="${p.id}" tabindex="0"><div class="status">${p.status}</div><h3>${p.name}</h3><div class="br">${p.brand}</div><p>${p.tag}</p><div>${p.cat.map(c=>`<span class="chip">${CATS[c]}</span>`).join("")}</div><div class="kp" style="margin-top:12px">${p.kpis.map(k=>`<div><b>${k[0]}</b><span>${k[1]}</span></div>`).join("")}</div></div>`).join("");
- document.querySelectorAll(".card").forEach(c=>{c.onclick=()=>openP(c.dataset.id);c.onkeydown=e=>{if(e.key=="Enter")openP(c.dataset.id)}});}
-function openP(id){const p=P.find(x=>x.id==id);$("#mStatus").textContent=p.status;$("#mName").textContent=p.name;$("#mBrand").textContent=p.brand;
- $("#mBody").innerHTML=`<p style="color:#cfd6e8;margin-top:6px">${p.tag}</p><h5>The problem</h5><p style="margin:0;color:#cfd6e8">${p.problem}</p><h5>What I built</h5><ul>${p.how.map(h=>`<li>${h}</li>`).join("")}</ul><h5>AI techniques</h5>${p.ai.map(a=>`<span class="chip">${a}</span>`).join("")}<h5>Stack</h5>${p.stack.map(a=>`<span class="chip">${a}</span>`).join("")}<h5>Key numbers</h5><div class="kp" style="border:0;padding:0">${p.kpis.map(k=>`<div><b>${k[0]}</b><span>${k[1]}</span></div>`).join("")}</div>${p.link?`<p style="margin-top:18px"><a class="btn p" href="${p.link}" target="_blank" rel="noopener">View source on GitHub →</a></p>`:""}`;
- dlg.showModal();}
-function renderFit(){const L=LENS[lens];const s=$("#fit");if(!L.fit){s.style.display="none";return}s.style.display="";
- $("#fitTitle").textContent=L.fitTitle;$("#fitSub").textContent=L.fitSub;
- $("#fitList").innerHTML=L.fit.map(f=>`<div class="fitrow"><div class="req">${f[0]}</div><div class="ev">${f[1]}</div><span class="pill ${f[2]?'':'part'}">${f[2]?'✓ MATCH':'◐ PARTIAL'}</span></div>`).join("");}
-function renderSkills(){$("#skillsEl").innerHTML=SK.map(g=>`<div class="sk"><h4>${g[0]}</h4>${g[1].map(s=>`<div class="bar"><div><span>${s[0]}</span><span>${s[1]}%</span></div><i><s data-w="${s[1]}"></s></i></div>`).join("")}</div>`).join("");}
-function setLens(l,push){lens=LENS[l]?l:"all";document.body.className=lens=="all"?"":lens;const L=LENS[lens];
- $("#eyebrow").textContent=L.eyebrow;$("#headline").innerHTML=L.h;$("#lead").textContent=L.lead;
- document.querySelectorAll(".lens button").forEach(b=>b.classList.toggle("on",b.dataset.l==lens));
- renderFit();renderGrid();if(push){const u=new URL(location);lens=="all"?u.searchParams.delete("for"):u.searchParams.set("for",lens);history.replaceState(null,"",u)}}
-document.querySelectorAll(".lens button").forEach(b=>b.onclick=()=>setLens(b.dataset.l,true));
-renderFilters();renderSkills();setLens(new URLSearchParams(location.search).get("for")||"all");
-const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;
- e.target.querySelectorAll("s[data-w]").forEach(s=>s.style.width=s.dataset.w+"%");
- e.target.querySelectorAll("b[data-c]").forEach(b=>{const t=+b.dataset.c,suf=b.dataset.s||"";let n=0;const st=setInterval(()=>{n+=Math.ceil(t/30);if(n>=t){n=t;clearInterval(st)}b.textContent=n+suf},30)});
- io.unobserve(e.target)}),{threshold:.2});
-io.observe(document.querySelector(".stats"));io.observe($("#skillsEl"));
-</script></body></html>
+<div class="split">
+ <aside class="stage" aria-label="Live drafts from my agents">
+  <div class="frame"><img class="shot cover" data-p="scoopbot" data-s="0" src="img/scoop_1.jpg" width="1080" height="1350" alt="Address Scoop carousel slides made by ScoopBot about Al Ahly Sabbour&#x27;s Zaha Residence launch">
+<img class="shot cover" data-p="scoopbot" data-s="1" src="img/scoop_2.jpg" width="1080" height="1350" alt="Address Scoop carousel slides made by ScoopBot about Al Ahly Sabbour&#x27;s Zaha Residence launch" loading="lazy">
+<img class="shot cover" data-p="scoopbot" data-s="2" src="img/scoop_3.jpg" width="1080" height="1350" alt="Address Scoop carousel slides made by ScoopBot about Al Ahly Sabbour&#x27;s Zaha Residence launch" loading="lazy">
+<video class="shot cover" data-p="autologist" data-s="0" src="img/autologist.mp4" poster="img/autologist_poster.jpg" width="720" height="900" muted loop playsinline preload="none" aria-label="Me presenting an Autologist video about Lamborghini, muted"></video>
+<img class="shot cover" data-p="autologist" data-s="1" src="img/auto_1.jpg" width="1080" height="1350" alt="Autologist Arabic carousel slides about the Tesla Cybercab, generated by the Autologist bot" loading="lazy">
+<img class="shot cover" data-p="autologist" data-s="2" src="img/auto_2.jpg" width="1080" height="1350" alt="Autologist Arabic carousel slides about the Tesla Cybercab, generated by the Autologist bot" loading="lazy">
+<img class="shot cover" data-p="autologist" data-s="3" src="img/auto_3.jpg" width="1080" height="1350" alt="Autologist Arabic carousel slides about the Tesla Cybercab, generated by the Autologist bot" loading="lazy">
+<img class="shot cover" data-p="consultant" data-s="0" src="img/cons_1.jpg" width="1080" height="1350" alt="The Consultant launch carousel for The Gryd by Upwyde, with price and payment plan slides" loading="lazy">
+<img class="shot cover" data-p="consultant" data-s="1" src="img/cons_2.jpg" width="1080" height="1350" alt="The Consultant launch carousel for The Gryd by Upwyde, with price and payment plan slides" loading="lazy">
+<img class="shot cover" data-p="ootd" data-s="0" src="img/ootd.jpg" width="1080" height="1350" alt="Outfit of the Day post: striped shirt, chinos, white sneakers and a watch, generated and checked by AI" loading="lazy">
+<figure class="shot ui" data-p="seosuite" data-s="0" data-ui><figcaption>Sample audit layout</figcaption><table><tr><td>Canonical tags</td><td>Pass</td></tr><tr><td>Broken internal links</td><td>3 found</td></tr><tr><td>Core Web Vitals, mobile</td><td>Needs work</td></tr><tr><td>Rank, primary keyword</td><td>Up 4</td></tr><tr><td>Uptime, last 24 hours</td><td>100%</td></tr><tr><td>Weekly summary</td><td>Sent</td></tr></table></figure>
+<img class="shot contain" data-p="ta2keed" data-s="0" src="img/ta2keed.jpg" width="1080" height="1350" alt="Ta2keed dashboard showing today&#x27;s orders, risk scores and the WhatsApp conversation" loading="lazy">
+<img class="shot contain" data-p="cartoon" data-s="0" src="img/cartoon.jpg" width="1080" height="1350" alt="Four views of a white Toyota Corolla 3D model produced by CarToon3D from a single photo" loading="lazy"></div>
+  <div class="msg" role="group" aria-label="Approve the draft">
+   <p class="who"><b id="sname">ScoopBot</b> <span id="sline">Draft ready. Reply ok to publish.</span></p>
+   <div class="ctl"><button class="rnd" id="prev" aria-label="Previous slide">&#8249;</button><button class="rnd" id="next" aria-label="Next slide">&#8250;</button><button class="btn" id="ok">ok</button></div>
+  </div>
+ </aside>
+ <main class="col">
+  <nav class="bar"><a class="wm" href="./">Mahmoud Gamal</a><span class="nl"><a href="#work">Work</a><a href="#results">Results</a><a href="#fit">Fit</a></span><a class="btn sm" href="mailto:contact.mahmoudgamal@gmail.com">Email me</a></nav>
+  <header class="hero" data-stage="scoopbot">
+   <div class="band" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+   <h1 class="lines"><span class="line"><span data-line style="--i:0">Mahmoud</span></span><span class="line"><span data-line style="--i:1">Gamal</span></span></h1>
+   <p class="stmt" data-rise style="--i:2">Senior digital marketer in Cairo. My AI agents research, write, design and publish, then wait for my ok.</p>
+   <p data-rise style="--i:3"><a class="btn" href="mailto:contact.mahmoudgamal@gmail.com?subject=Hello%20Mahmoud">Email me</a></p>
+   <p class="links" data-rise style="--i:4"><a class="link" href="https://www.linkedin.com/in/mahmoud-gamal-eldeen">LinkedIn</a><a class="link" href="https://github.com/MahmoudJimmey">GitHub</a><a class="link" href="schneider/">Applying to Schneider Electric? See the buildings version</a></p>
+  </header>
+  <section id="results" class="proof" data-stage="autologist"><h2 data-reveal>Results</h2><div class="pcs" data-reveal><div class="pc"><p class="pk">Paid media</p><p>700 qualified leads in one month</p><p>1.45% Meta CTR, benchmark 0.9%</p><p>EGP 10M a month in spend</p><p>10 to 12 launches a month</p></div><div class="pc"><p class="pk">Video</p><p>470K+ plays in June</p><p>50K+ TikTok views in 3 months</p><p>27K views on one review</p></div><div class="pc"><p class="pk">Search</p><p>2 page-one keywords</p><p>190+ articles in 2 years</p><p>4+ Upwork clients</p><p>100% client retention</p></div><div class="pc"><p class="pk">Automation</p><p>5 bots live around the clock</p><p>4 Instagram brands run by agents</p><p>EGP 0 in API spend</p></div></div></section>
+  <section id="work" class="work"><h2 data-reveal>Work</h2><p class="hint" data-reveal>Choose a project to open it. The drafts on the left are its real output.</p><ul class="wl"><li class="w" data-p="scoopbot"><img class="mob" src="img/scoop_1.jpg" width="1080" height="1350" alt="Address Scoop carousel slides made by ScoopBot about Al Ahly Sabbour&#x27;s Zaha Residence launch" loading="lazy">
+  <button class="wn" aria-expanded="false"><span class="nm">ScoopBot</span><span class="kd">AI newsroom for Address Scoop, 2026</span></button>
+  <div class="wd"><div><p>Scans 62 news sources four times a day, writes English and Egyptian-Arabic carousels on the designer&#x27;s templates and checks every figure against its source. The writer, designer and owner approve it on WhatsApp with one word. Every edit they make becomes a rule it follows next time.</p><p class="facts">62 sources per scan. 4 scans a day. 3 people approve, 0 retype.</p><p class="tools">Built with Node.js, Gemini, WhatsApp, Playwright, Oracle Cloud</p></div></div></li><li class="w" data-p="autologist"><img class="mob" src="img/auto_1.jpg" width="1080" height="1350" alt="Autologist Arabic carousel slides about the Tesla Cybercab, generated by the Autologist bot" loading="lazy">
+  <button class="wn" aria-expanded="false"><span class="nm">Autologist</span><span class="kd">Arabic car news brand, 2026</span></button>
+  <div class="wd"><div><p>My own motorsport and car brand. A bot reads 44 sources, ranks the stories, writes Arabic slides, checks each photo for the exact car with a vision model and posts through the Instagram API after I approve it in Telegram.</p><p class="facts">50K+ TikTok views in 3 months. 44 sources. Every post approved.</p><p class="tools">Built with Node.js, Gemini vision, Telegram, Instagram Graph API</p></div></div></li><li class="w" data-p="consultant"><img class="mob" src="img/cons_1.jpg" width="1080" height="1350" alt="The Consultant launch carousel for The Gryd by Upwyde, with price and payment plan slides" loading="lazy">
+  <button class="wn" aria-expanded="false"><span class="nm">The Consultant</span><span class="kd">Developer launch tracker, 2026</span></button>
+  <div class="wd"><div><p>Reads the developer broker groups, pulls out launches, price lists and brochures, files them per project for the sales team and turns each new launch into an on-brand carousel twice a day.</p><p class="facts">2 carousels a day. 4 document types sorted. Synced every hour.</p><p class="tools">Built with Node.js, Gemini, Cloudflare FLUX, SQLite</p></div></div></li><li class="w" data-p="ootd"><img class="mob" src="img/ootd.jpg" width="1080" height="1350" alt="Outfit of the Day post: striped shirt, chinos, white sneakers and a watch, generated and checked by AI" loading="lazy">
+  <button class="wn" aria-expanded="false"><span class="nm">Outfit of the Day</span><span class="kd">Fully automated fashion page, 2026</span></button>
+  <div class="wd"><div><p>Weather, Egyptian holidays and menswear trend feeds go in. An outfit, an image, an item-by-item quality check and a Telegram draft come out, and it publishes on schedule.</p><p class="facts">EGP 0 a month to run. Up to 4 quality retries. One tap to publish.</p><p class="tools">Built with Python, Gemini, Cloudflare FLUX, Instagram Graph API</p></div></div></li><li class="w" data-p="seosuite">
+  <button class="wn" aria-expanded="false"><span class="nm">SEO Suite</span><span class="kd">SEO and SEM command center, 2026</span></button>
+  <div class="wd"><div><p>A crawler at Screaming Frog depth that also watches rankings, content, uptime and paid search, and reports into Telegram threads. I use it for every freelance client.</p><p class="facts">About 90 checks per audit. Up to 5,000 pages per crawl. Uptime checked every 15 minutes.</p><p class="tools">Built with Node.js, Playwright, SQLite, PageSpeed, Search Console, GA4</p></div></div></li><li class="w" data-p="ta2keed"><img class="mob" src="img/ta2keed.jpg" width="1080" height="1350" alt="Ta2keed dashboard showing today&#x27;s orders, risk scores and the WhatsApp conversation" loading="lazy">
+  <button class="wn" aria-expanded="false"><span class="nm">Ta2keed</span><span class="kd">Order confirmation agent, 2026</span></button>
+  <div class="wd"><div><p>Built for the Agents at Work hackathon. It confirms cash-on-delivery orders in Egyptian Arabic, scores refusal risk, checks payment receipts with vision AI, books the courier and sends the reorder offer. Open source on GitHub. <a class="link" href="https://github.com/MahmoudJimmey/Ta2keed">Source code on GitHub</a></p><p class="facts">11 steps, no human needed. 5 AI providers supported. Prompt-injection safe.</p><p class="tools">Built with Python, multi-LLM, WhatsApp Cloud API, Docker</p></div></div></li><li class="w" data-p="cartoon"><img class="mob" src="img/cartoon.jpg" width="1080" height="1350" alt="Four views of a white Toyota Corolla 3D model produced by CarToon3D from a single photo" loading="lazy">
+  <button class="wn" aria-expanded="false"><span class="nm">CarToon3D</span><span class="kd">Photo to animated 3D mascot, 2026</span></button>
+  <div class="wd"><div><p>One command turns a car photo into an animated 3D character for social posts and AR, running on a laptop with no paid tools.</p><p class="facts">About 3 minutes per car. MP4, GLB, poster and scene. EGP 0.</p><p class="tools">Built with Python, TripoSR, rembg, Blender</p></div></div></li></ul></section>
+  <section id="how" class="how" data-stage="scoopbot"><h2 data-reveal>How a post gets made</h2><div class="hw" data-reveal><p><b>Every morning,</b> the agents read the market: news feeds, developer groups, search results and trend charts in Arabic and English. They group what matters by audience and by content pillar.</p><div class="ev"><img src="img/scoop_sp.jpg" width="1080" height="1350" alt="" loading="lazy"><img src="img/cons_1.jpg" width="1080" height="1350" alt="" loading="lazy"><img src="img/auto_1.jpg" width="1080" height="1350" alt="" loading="lazy"></div></div><div class="hw" data-reveal><p><b>Then they write.</b> Bilingual copy on the brand&#x27;s own rules, with real photos picked first and checked by a vision model. AI images only fill the gaps.</p><div class="ev"><img src="img/scoop_2.jpg" width="1080" height="1350" alt="" loading="lazy"><img src="img/auto_2.jpg" width="1080" height="1350" alt="" loading="lazy"><img src="img/ootd.jpg" width="1080" height="1350" alt="" loading="lazy"></div></div><div class="hw" data-reveal><p><b>Before anyone sees it,</b> every number is checked against its source. If a rewrite changes a figure, the rewrite is thrown away.</p><div class="ev check" data-ui><p class="soft">How the number lock works, as an example</p><p><b>Source:</b> EGP 4.2 billion in sales</p><p><b>Draft:</b> EGP 4.2 billion in sales</p><p><b>Humanized:</b> about 4 billion in sales</p><p class="no">Rejected, the number changed</p></div></div><div class="hw" data-reveal><p><b>One reply decides.</b> The draft arrives on WhatsApp or Telegram. ok publishes it. Anything else is treated as an edit, and the edit becomes a rule for next time.</p><div class="ev"><img src="img/scoop_3.jpg" width="1080" height="1350" alt="" loading="lazy"><img src="img/auto_3.jpg" width="1080" height="1350" alt="" loading="lazy"><img src="img/cons_2.jpg" width="1080" height="1350" alt="" loading="lazy"></div></div></section>
+ </main>
+</div>
+<section id="fit" class="fit"><div class="fpic" aria-hidden="true"><img src="img/scoop_1.jpg" data-img="scoop_1" class="on" width="1080" height="1350" alt="" loading="lazy"><img src="img/ootd.jpg" data-img="ootd" class="" width="1080" height="1350" alt="" loading="lazy"><img src="img/auto_2.jpg" data-img="auto_2" class="" width="1080" height="1350" alt="" loading="lazy"><img src="img/scoop_sp.jpg" data-img="scoop_sp" class="" width="1080" height="1350" alt="" loading="lazy"><img src="img/auto_3.jpg" data-img="auto_3" class="" width="1080" height="1350" alt="" loading="lazy"><img src="img/cons_1.jpg" data-img="cons_1" class="" width="1080" height="1350" alt="" loading="lazy"><img src="img/ta2keed.jpg" data-img="ta2keed" class="" width="1080" height="1350" alt="" loading="lazy"><img src="img/scoop_3.jpg" data-img="scoop_3" class="" width="1080" height="1350" alt="" loading="lazy"></div><div class="fl"><h2 data-reveal>What MG Digital asks for</h2><p class="fi" data-reveal>Matched line by line to the AI Marketing Specialist role. Hover or tap a line to see the proof.</p><ul><li class="f on" data-img="scoop_1" tabindex="0"><span class="fr">AI-powered marketing solutions</span><span class="fe">ScoopBot and Autologist research, write, design and publish for live Instagram brands every day.</span></li><li class="f" data-img="ootd" tabindex="0"><span class="fr">Automate repetitive marketing work</span><span class="fe">Outfit of the Day publishes daily without me. The launch tracker files every brochure and price list on its own.</span></li><li class="f" data-img="auto_2" tabindex="0"><span class="fr">AI content generation and optimisation</span><span class="fe">English and Egyptian-Arabic copy, AI images with a vision check, and a humanizer that is not allowed to change numbers.</span></li><li class="f" data-img="scoop_sp" tabindex="0"><span class="fr">Analyse campaign data with AI</span><span class="fe">I turn GA4 and Looker Studio data into creative briefs, which got 1.45% CTR on EGP 10M a month. SEO Suite reports ranks and paid search weekly.</span></li><li class="f" data-img="auto_3" tabindex="0"><span class="fr">ChatGPT, Claude, Gemini, prompt engineering</span><span class="fe">Production prompts with few-shot examples, rule memory and fact-check chains across five AI providers.</span></li><li class="f" data-img="cons_1" tabindex="0"><span class="fr">Zapier-style automation</span><span class="fe">Event pipelines on cron, webhooks, Telegram, WhatsApp and the Instagram API, written to run around the clock.</span></li><li class="f" data-img="ta2keed" tabindex="0"><span class="fr">Python</span><span class="fe">Outfit of the Day, the daily digest, the trend scout, Ta2keed and CarToon3D are Python.</span></li><li class="f" data-img="scoop_3" tabindex="0"><span class="fr">Train the team on AI</span><span class="fe">Our writer, designer and owner approve AI drafts daily in a workflow I designed, and their edits teach it.</span></li></ul></div></section>
+<section class="letter"><div class="lc" data-reveal><img class="me" src="img/me.jpg" width="88" height="88" alt="Mahmoud Gamal"><p>I came to marketing the long way round. I studied civil engineering, supervised roadworks at a naval base, then spent three years selling property in New Cairo before I wrote my first SEO article.</p><p>That path is why I build the way I do. Sales taught me what a qualified lead really is. Writing 190 articles taught me what a search engine rewards. Leading creative on a large Meta budget taught me that the brief matters more than the tool.</p><p>AI is where those meet. My agents do the reading, drafting and checking that used to fill a marketer&#x27;s day, and people keep the judgement. Nothing goes out without someone saying ok.</p><p>I would like to do this full time, remotely, for teams who want AI built into their marketing rather than added on.</p><p class="sig">Mahmoud Gamal</p><p class="sr">Senior Digital Marketing Specialist, The Address Investments</p></div></section>
+<section id="contact" class="contact"><form class="cf" id="cf" data-reveal><label for="q"><span class="soft">Have a role or a brief?</span><br>Tell me in one line.</label>
+ <div class="field"><input id="q" name="q" type="text" placeholder="For example: a remote AI marketing role" autocomplete="off"><button class="rnd go" aria-label="Write the email">&#8594;</button></div>
+ <p class="next">This opens an email to me with your line in it.</p>
+ <dl><div><dt>Email</dt><dd><a class="link" href="mailto:contact.mahmoudgamal@gmail.com">contact.mahmoudgamal@gmail.com</a></dd></div><div><dt>LinkedIn</dt><dd><a class="link" href="https://www.linkedin.com/in/mahmoud-gamal-eldeen">mahmoud-gamal-eldeen</a></dd></div><div><dt>Based in</dt><dd>El Sherouk, Cairo</dd></div></dl></form></section>
+<footer class="foot"><div class="fimg"><img src="img/scoop_1.jpg" width="1080" height="1350" alt="" loading="lazy"></div>
+ <div class="fm"><p class="fw">Mahmoud Gamal</p><nav><a href="#work">Work</a><a href="#results">Results</a><a href="#how">How it works</a><a href="#fit">Fit</a><a href="#contact">Contact</a></nav>
+ <div class="fb"><p><a class="link" href="mailto:contact.mahmoudgamal@gmail.com">contact.mahmoudgamal@gmail.com</a></p><p><a class="link" href="https://www.linkedin.com/in/mahmoud-gamal-eldeen">LinkedIn</a> <a class="link" href="https://github.com/MahmoudJimmey">GitHub</a></p></div>
+ <p class="legal">Every picture on this page is real output from my own systems. Client data and credentials are not shown.</p></div></footer>
+<script>window.STAGE_NAMES={"scoopbot": "ScoopBot", "autologist": "Autologist", "consultant": "The Consultant", "ootd": "Outfit of the Day", "seosuite": "SEO Suite", "ta2keed": "Ta2keed", "cartoon": "CarToon3D"};window.MAILTO="contact.mahmoudgamal@gmail.com";</script>
+<script src="site.js" defer></script>
+</body></html>
