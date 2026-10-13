@@ -87,7 +87,6 @@ PAGES = {
     "I would like to do this full time, remotely, for teams who want AI built into their marketing rather than added on.",
    ],
    role="Senior Digital Marketing Specialist, The Address Investments",
-   other=("Applying to Schneider Electric? See the buildings version", "schneider/"),
    stage_default="scoopbot", footer_img="scoop_1",
    contact_prompt=("Have a role or a brief?", "Tell me in one line."),
  ),
@@ -187,7 +186,7 @@ def page(cfg):
    <h1 class="lines"><span class="line"><span data-line style="--i:0">Mahmoud</span></span><span class="line"><span data-line style="--i:1">Gamal</span></span></h1>
    <p class="stmt" data-rise style="--i:2">{esc(cfg["statement"])}</p>
    <p data-rise style="--i:3"><a class="btn" href="mailto:{EMAIL}?subject=Hello%20Mahmoud">Email me</a></p>
-   <p class="links" data-rise style="--i:4"><a class="link" href="{LINKEDIN}">LinkedIn</a><a class="link" href="{GITHUB}">GitHub</a><a class="link" href="{b}{cfg["other"][1]}">{esc(cfg["other"][0])}</a></p>
+   <p class="links" data-rise style="--i:4"><a class="link" href="{LINKEDIN}">LinkedIn</a><a class="link" href="{GITHUB}">GitHub</a>{f'<a class="link" href="{b}{cfg["other"][1]}">{esc(cfg["other"][0])}</a>' if cfg.get("other") else ""}</p>
   </header>
   <section id="results" class="proof" data-stage="autologist"><h2 data-reveal>Results</h2><div class="pcs" data-reveal>{proof}</div></section>
   <section id="work" class="work"><h2 data-reveal>Work</h2><p class="hint" data-reveal>Choose a project to open it. The drafts on the left are its real output.</p><ul class="wl">{"".join(work_rows)}</ul></section>
