@@ -26,11 +26,6 @@ PROJECTS = {
    alt="The Consultant launch carousel for The Gryd by Upwyde, with price and payment plan slides",
    text="Reads the developer broker groups, pulls out launches, price lists and brochures, files them per project for the sales team and turns each new launch into an on-brand carousel twice a day.",
    facts=["2 carousels a day", "4 document types sorted", "Synced every hour"], tools="Node.js, Gemini, Cloudflare FLUX, SQLite"),
- "ootd": dict(name="Outfit of the Day", kind="Fully automated fashion page", year="2026",
-   slides=["ootd"], fit="cover",
-   alt="Outfit of the Day post: striped shirt, chinos, white sneakers and a watch, generated and checked by AI",
-   text="Weather, Egyptian holidays and menswear trend feeds go in. An outfit, an image, an item-by-item quality check and a Telegram draft come out, and it publishes on schedule.",
-   facts=["EGP 0 a month to run", "Up to 4 quality retries", "One tap to publish"], tools="Python, Gemini, Cloudflare FLUX, Instagram Graph API"),
  "seosuite": dict(name="SEO Suite", kind="SEO and SEM command center", year="2026",
    slides=[], fit="ui",
    alt="",
@@ -41,23 +36,18 @@ PROJECTS = {
    alt="Ta2keed dashboard showing today's orders, risk scores and the WhatsApp conversation",
    text="Built for the Agents at Work hackathon. It confirms cash-on-delivery orders in Egyptian Arabic, scores refusal risk, checks payment receipts with vision AI, books the courier and sends the reorder offer. Open source on GitHub.",
    facts=["11 steps, no human needed", "5 AI providers supported", "Prompt-injection safe"], tools="Python, multi-LLM, WhatsApp Cloud API, Docker", link="https://github.com/MahmoudJimmey/Ta2keed"),
- "cartoon": dict(name="CarToon3D", kind="Photo to animated 3D mascot", year="2026",
-   slides=["cartoon"], fit="contain",
-   alt="Four views of a white Toyota Corolla 3D model produced by CarToon3D from a single photo",
-   text="One command turns a car photo into an animated 3D character for social posts and AR, running on a laptop with no paid tools.",
-   facts=["About 3 minutes per car", "MP4, GLB, poster and scene", "EGP 0"], tools="Python, TripoSR, rembg, Blender"),
 }
 
 PROOF_COLS = [
  ("Paid media", ["700 qualified leads in one month", "1.45% Meta CTR, benchmark 0.9%", "EGP 10M a month in spend", "10 to 12 launches a month"]),
  ("Video", ["470K+ plays in June", "50K+ TikTok views in 3 months", "27K views on one review"]),
  ("Search", ["2 page-one keywords", "190+ articles in 2 years", "4+ Upwork clients", "100% client retention"]),
- ("Automation", ["5 bots live around the clock", "4 Instagram brands run by agents", "EGP 0 in API spend"]),
+ ("Automation", ["4 bots live around the clock", "3 Instagram brands run by agents", "EGP 0 in API spend"]),
 ]
 
 HOW = [
  ("Every morning,", "the agents read the market: news feeds, developer groups, search results and trend charts in Arabic and English. They group what matters by audience and by content pillar.", ["scoop_sp", "cons_1", "auto_1"]),
- ("Then they write.", "Bilingual copy on the brand's own rules, with real photos picked first and checked by a vision model. AI images only fill the gaps.", ["scoop_2", "auto_2", "ootd"]),
+ ("Then they write.", "Bilingual copy on the brand's own rules, with real photos picked first and checked by a vision model. AI images only fill the gaps.", ["scoop_2", "auto_2", "cons_2"]),
  ("Before anyone sees it,", "every number is checked against its source. If a rewrite changes a figure, the rewrite is thrown away.", None),
  ("One reply decides.", "The draft arrives on WhatsApp or Telegram. ok publishes it. Anything else is treated as an edit, and the edit becomes a rule for next time.", ["scoop_3", "auto_3", "cons_2"]),
 ]
@@ -67,17 +57,17 @@ PAGES = {
    path="index.html", base="", title="Mahmoud Gamal, AI marketing and automation",
    desc="Senior digital marketer in Cairo who builds AI agents that research, write, design and publish marketing content.",
    statement="Senior digital marketer in Cairo. My AI agents research, write, design and publish, then wait for my ok.",
-   order=["scoopbot", "autologist", "consultant", "ootd", "seosuite", "ta2keed", "cartoon"],
+   order=["scoopbot", "autologist", "consultant", "seosuite", "ta2keed"],
    fit_title="What MG Digital asks for",
    fit_intro="Matched line by line to the AI Marketing Specialist role. Hover or tap a line to see the proof.",
    fit=[
     ("AI-powered marketing solutions", "ScoopBot and Autologist research, write, design and publish for live Instagram brands every day.", "scoop_1"),
-    ("Automate repetitive marketing work", "Outfit of the Day publishes daily without me. The launch tracker files every brochure and price list on its own.", "ootd"),
+    ("Automate repetitive marketing work", "The launch tracker files every brochure and price list on its own, and the newsroom drafts posts four times a day without me.", "cons_2"),
     ("AI content generation and optimisation", "English and Egyptian-Arabic copy, AI images with a vision check, and a humanizer that is not allowed to change numbers.", "auto_2"),
     ("Analyse campaign data with AI", "I turn GA4 and Looker Studio data into creative briefs, which got 1.45% CTR on EGP 10M a month. SEO Suite reports ranks and paid search weekly.", "scoop_sp"),
     ("ChatGPT, Claude, Gemini, prompt engineering", "Production prompts with few-shot examples, rule memory and fact-check chains across five AI providers.", "auto_3"),
     ("Zapier-style automation", "Event pipelines on cron, webhooks, Telegram, WhatsApp and the Instagram API, written to run around the clock.", "cons_1"),
-    ("Python", "Outfit of the Day, the daily digest, the trend scout, Ta2keed and CarToon3D are Python.", "ta2keed"),
+    ("Python", "The daily intelligence digest, the trend scout and Ta2keed are Python.", "ta2keed"),
     ("Train the team on AI", "Our writer, designer and owner approve AI drafts daily in a workflow I designed, and their edits teach it.", "scoop_3"),
    ],
    letter=[
@@ -94,7 +84,7 @@ PAGES = {
    path="schneider/index.html", base="../", title="Mahmoud Gamal, marketing engineer for the built environment",
    desc="Civil engineer turned senior digital marketer in Cairo. Demand generation, market intelligence and AI tools for the building ecosystem.",
    statement="Civil engineer turned senior digital marketer. I turn Egypt's building market into leads that sales can close.",
-   order=["consultant", "scoopbot", "seosuite", "autologist", "ootd", "ta2keed", "cartoon"],
+   order=["consultant", "scoopbot", "seosuite", "autologist", "ta2keed"],
    fit_title="What Schneider Electric asks for",
    fit_intro="Matched line by line to the Regional Digital Buildings Senior Marketing Engineer role. One line is a partial match, and it says so.",
    fit=[
@@ -105,7 +95,7 @@ PAGES = {
     ("Track performance and ROI", "1.45% Meta CTR, about 60% above benchmark, on EGP 10M a month, read in GA4 and Looker Studio.", "scoop_2"),
     ("Positioning and storytelling", "On-camera presenter with 470K+ plays in a month. Content on smart homes, PropTech and sustainability.", "auto_1"),
     ("Bridge sales, channel and marketing", "I coordinate content, design and media buying against sales targets, and write technical specs for developers.", "scoop_3"),
-    ("Building management systems", "Partial match. I have the engineering base, but no direct BMS product-marketing experience yet.", "cartoon"),
+    ("Building management systems", "Partial match. I have the engineering base, but no direct BMS product-marketing experience yet.", "ta2keed"),
    ],
    letter=[
     "I started on site. After civil engineering at Alexandria University I supervised roadworks and infrastructure at the 3rd of July naval base, coordinating contractors and site teams.",
@@ -123,7 +113,7 @@ PAGES = {
    path="hydepark/index.html", base="../", title="Mahmoud Gamal, senior marketing executive for Hyde Park",
    desc="Senior digital marketer in Cairo: real-estate campaigns, content, agencies and KPIs. 700 qualified leads in a month.",
    statement="Senior digital marketer in Egyptian real estate. 700 qualified leads in one month, and I'd like the next ones to be Hyde Park's.",
-   order=["scoopbot", "consultant", "autologist", "seosuite", "ootd", "ta2keed", "cartoon"],
+   order=["scoopbot", "consultant", "autologist", "seosuite", "ta2keed"],
    fit_title="What the Hyde Park role asks for",
    fit_intro="Matched line by line to the Digital Marketing Executive listing. I am applying at senior level: each line is something I already do every week.",
    fit=[
@@ -132,7 +122,7 @@ PAGES = {
     ("Work with digital and media-buying agencies", "I brief media buyers, designers and production teams daily against an EGP 10M monthly budget.", "scoop_2"),
     ("Monitor KPIs and find optimisations", "1.45% Meta CTR against a 0.9% benchmark, with GA4 and Looker Studio insights turned into creative briefs.", "scoop_sp"),
     ("Market and competitor research", "Daily briefs on developer launches, price revisions, rates and regulation, plus a tool that tracks every launch.", "cons_1"),
-    ("Social media management and scheduling", "I run Instagram pages with content calendars and scheduled publishing, including four that my own tools automate.", "cons_2"),
+    ("Social media management and scheduling", "I run Instagram pages with content calendars and scheduled publishing, including three that my own tools automate.", "cons_2"),
     ("Website and lead generation", "Technical SEO for The Address Holding and EstateBook, with 2 page-one keywords and 700 qualified leads in one month.", "scoop_3"),
     ("Stay ahead on digital trends and tools", "I build AI tools that research the market, draft content and report results, and every output gets human approval.", "auto_3"),
    ],
