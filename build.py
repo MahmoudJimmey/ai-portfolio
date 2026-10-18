@@ -118,6 +118,34 @@ PAGES = {
    stage_default="consultant", footer_img="cons_1",
    contact_prompt=("Building something smarter?", "Tell me in one line."),
  ),
+
+ "hydepark": dict(
+   path="hydepark/index.html", base="../", title="Mahmoud Gamal, senior marketing executive for Hyde Park",
+   desc="Senior digital marketer in Cairo: real-estate campaigns, content, agencies and KPIs. 700 qualified leads in a month.",
+   statement="Senior digital marketer in Egyptian real estate. 700 qualified leads in one month, and I'd like the next ones to be Hyde Park's.",
+   order=["scoopbot", "consultant", "autologist", "seosuite", "ootd", "ta2keed", "cartoon"],
+   fit_title="What the Hyde Park role asks for",
+   fit_intro="Matched line by line to the Digital Marketing Executive listing. I am applying at senior level: each line is something I already do every week.",
+   fit=[
+    ("Execute campaigns across social, paid media and web", "10 to 12 campaign activations a month at The Address Investments, across Meta, TikTok, Google and the website.", "scoop_1"),
+    ("Engaging content in the brand's tone and visual guidelines", "I script and present compound videos (470K+ plays in June) and enforce brand guidelines on every deliverable.", "auto_1"),
+    ("Work with digital and media-buying agencies", "I brief media buyers, designers and production teams daily against an EGP 10M monthly budget.", "scoop_2"),
+    ("Monitor KPIs and find optimisations", "1.45% Meta CTR against a 0.9% benchmark, with GA4 and Looker Studio insights turned into creative briefs.", "scoop_sp"),
+    ("Market and competitor research", "Daily briefs on developer launches, price revisions, rates and regulation, plus a tool that tracks every launch.", "cons_1"),
+    ("Social media management and scheduling", "I run Instagram pages with content calendars and scheduled publishing, including four that my own tools automate.", "cons_2"),
+    ("Website and lead generation", "Technical SEO for The Address Holding and EstateBook, with 2 page-one keywords and 700 qualified leads in one month.", "scoop_3"),
+    ("Stay ahead on digital trends and tools", "I build AI tools that research the market, draft content and report results, and every output gets human approval.", "auto_3"),
+   ],
+   letter=[
+    "I know New Cairo from the sales floor. Before marketing I spent three years as a property consultant at The Address Investments, Coldwell Banker and aqarpedia, showing buyers compounds and learning what makes a luxury buyer say yes.",
+    "Then I moved into marketing: 190 SEO articles at EstateBook, technical SEO at The Address Holding, and now creative strategy and campaign operations on an EGP 10M monthly budget. In one month that work delivered 700 qualified leads.",
+    "I present on camera, I write in Arabic and English, I manage agencies, and I read the numbers. I also build AI tools that take the repetitive work off the team.",
+    "Hyde Park sets the bar for premium living in New Cairo and on the coast. I'd like to bring senior-level execution to the digital team.",
+   ],
+   role="Senior Digital Marketing Specialist, The Address Investments",
+   stage_default="scoopbot", footer_img="scoop_3",
+   contact_prompt=("Hiring at Hyde Park?", "Tell me in one line."),
+ ),
 }
 
 def esc(s): return html.escape(s, quote=True)
