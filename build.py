@@ -209,7 +209,8 @@ def stage_media(base):
                 v = s[6:]
                 out.append(f'<video class="shot cover" data-p="{key}" data-s="{i}" src="{base}img/{v}.mp4" poster="{base}img/{v}_poster.jpg" width="720" height="900" muted loop playsinline preload="none" aria-label="Me presenting an Autologist video about Lamborghini, muted"></video>')
                 continue
-            out.append(f'<img class="shot {p["fit"]}" data-p="{key}" data-s="{i}" src="{base}img/{s}.jpg" width="1080" height="1350" alt="{esc(p["alt"])}"{"" if key=="scoopbot" and i==0 else " loading=\"lazy\""}>')
+            lazy = "" if key == "scoopbot" and i == 0 else ' loading="lazy"'
+            out.append(f'<img class="shot {p["fit"]}" data-p="{key}" data-s="{i}" src="{base}img/{s}.jpg" width="1080" height="1350" alt="{esc(p["alt"])}"{lazy}>')
     return "\n".join(out)
 
 def page(cfg):
