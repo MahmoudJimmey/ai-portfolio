@@ -280,7 +280,17 @@ def page(cfg):
 <script src="{b}site.js" defer></script>
 </body></html>'''
 
+def load_bot_pages():
+    """Pages created by the job bot live in pages/<slug>.json (same keys as a PAGES entry)."""
+    d = ROOT / "pages"
+    if d.is_dir():
+        for f in sorted(d.glob("*.json")):
+            cfg = json.loads(f.read_text(encoding="utf-8"))
+            cfg["fit"] = [tuple(x) for x in cfg["fit"]]
+            PAGES.setdefault(f.stem, cfg)
+
 if __name__ == "__main__":
+    load_bot_pages()
     for cfg in PAGES.values():
         out = ROOT / cfg["path"]; out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(page(cfg), encoding="utf-8")
