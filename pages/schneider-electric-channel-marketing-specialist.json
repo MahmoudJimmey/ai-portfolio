@@ -1,0 +1,60 @@
+{
+ "path": "schneider-electric-channel-marketing-specialist/index.html",
+ "base": "../",
+ "title": "Mahmoud Gamal, Channel Marketing Specialist - Industrial Automation and Digital Energy for",
+ "desc": "Channel Marketing Specialist · Digital Campaigns · B2B Lead Generation",
+ "statement": "Channel marketing and campaign specialist combining data-driven lead generation with automated workflows.",
+ "order": [
+  "seosuite",
+  "scoopbot",
+  "autologist",
+  "consultant",
+  "ta2keed"
+ ],
+ "fit_title": "What Schneider Electric asks for",
+ "fit_intro": "Evaluating alignment with the Channel Marketing Specialist role at Schneider Electric, highlighting direct campaign experience and noting honest partial matches.",
+ "fit": [
+  [
+   "B2B and channel marketing",
+   "Managed integrated digital activations and campaign operations supporting lead generation and sales conversion targets.",
+   "scoop_1"
+  ],
+  [
+   "Industrial automation and digital energy",
+   "Partial match. Brings civil engineering background and sustainable smart home content writing experience, but lacks direct industrial automation product marketing.",
+   "scoop_2"
+  ],
+  [
+   "Marketing automation platforms and CRM",
+   "Integrated CRM lead intake with conversion tracking and built advanced multi-source automated newsrooms and workflows.",
+   "scoop_3"
+  ],
+  [
+   "Cross-functional coordination",
+   "Coordinated content creators, graphic designers, media buyers, and sales teams to maintain high monthly activation volumes.",
+   "scoop_sp"
+  ],
+  [
+   "Partner and stakeholder engagement",
+   "Partial match. Coordinates closely with external agencies and internal stakeholders, but lacks formal direct partner program management experience.",
+   "auto_1"
+  ],
+  [
+   "Campaign performance tracking",
+   "Utilized GA4, Looker Studio, and Search Console data to monitor metrics and optimize ongoing campaign performance.",
+   "scoop_1"
+  ]
+ ],
+ "letter": [
+  "My path combines civil engineering, property consulting, and extensive digital marketing experience across high-growth environments.",
+  "In my current role at The Address Investments, I drove 700 qualified leads in a single month across 4 simultaneous campaigns while managing an EGP 10M/month ad budget.",
+  "I want to bring my expertise in campaign execution, cross-functional coordination, and digital automation to elevate engagement and performance across your partner programs."
+ ],
+ "role": "Senior Digital Marketing Specialist, The Address Investments",
+ "stage_default": "scoopbot",
+ "footer_img": "scoop_1",
+ "contact_prompt": [
+  "Hiring at Schneider?",
+  "Tell me in one line."
+ ]
+}
