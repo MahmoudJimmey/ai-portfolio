@@ -1,0 +1,61 @@
+{
+ "path": "city-edge-digital-marketing-section-he/index.html",
+ "base": "../",
+ "title": "Mahmoud Gamal, Digital Marketing Section Head for City Edge",
+ "desc": "Digital Marketing Section Head · Real Estate Campaigns · Lead Generation",
+ "statement": "Digital marketing leader driving real estate lead generation, performance campaigns, and automated content engines.",
+ "order": [
+  "scoopbot",
+  "seosuite",
+  "autologist",
+  "consultant",
+  "ta2keed"
+ ],
+ "fit_title": "What City Edge asks for",
+ "fit_intro": "Here is how my professional background aligns with the requirements for the Digital Marketing Section Head role at City Edge Developments, including honest notes on gaps.",
+ "fit": [
+  [
+   "Digital marketing strategy",
+   "Planned and managed overall digital marketing strategy, driving 700 qualified leads in a single month across 4 simultaneous campaigns.",
+   "scoop_1"
+  ],
+  [
+   "Social media presence",
+   "Planned and monitored ongoing company presence on social media like Instagram and Facebook with branded content.",
+   "scoop_2"
+  ],
+  [
+   "SEO and SEM adverts",
+   "Launched optimized online adverts through SEO, SEM, and Google AdWords, securing Google page-one rankings for competitive keywords.",
+   "scoop_1"
+  ],
+  [
+   "Web analytics tools",
+   "Measured performance of digital marketing efforts using GA4, Google Tag Manager, and Looker Studio.",
+   "scoop_1"
+  ],
+  [
+   "Real estate industry experience",
+   "Brings 3 years in real estate sales plus extensive real estate marketing experience.",
+   "cons_1"
+  ],
+  [
+   "7+ years of total experience",
+   "Partial match. Brings about 3.5 years in marketing, 3 years in real estate sales, and 1 year as a site engineer.",
+   "cons_2"
+  ]
+ ],
+ "letter": [
+  "My path combines a B.Sc. in Civil Engineering from Alexandria University with hands-on experience in real estate sales, SEO, and digital marketing strategy in the Egyptian market.",
+  "For this role, my strongest proof is driving 700 qualified leads in a single month across 4 simultaneous real-estate campaigns and managing an EGP 10M/month ad budget with a 1.45% average Meta CTR.",
+  "I am drawn to City Edge Developments because of your prominent presence in El Sheikh Zaid and across Egypt, where strategic real estate digital campaigns directly impact brand awareness and sales growth.",
+  "At City Edge, I want to lead your digital marketing department, optimize online advertising, oversee campaign performance metrics, and build high-performing content engines."
+ ],
+ "role": "Senior Digital Marketing Specialist, The Address Investments",
+ "stage_default": "scoopbot",
+ "footer_img": "scoop_1",
+ "contact_prompt": [
+  "Hiring at City Edge?",
+  "Tell me in one line."
+ ]
+}
