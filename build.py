@@ -224,7 +224,7 @@ def page(cfg):
         work_rows.append(f'''<li class="w" data-p="{k}">{mob}
   <button class="wn" aria-expanded="false"><span class="nm">{esc(p["name"])}</span><span class="kd">{esc(p["kind"])}, {p["year"]}</span></button>
   <div class="wd"><div><p>{esc(p["text"])}{link}</p><p class="facts">{esc(". ".join(p["facts"]))}.</p><p class="tools">Built with {esc(p["tools"])}</p></div></div></li>''')
-    proof = "".join(f'<div class="pc"><p class="pk">{esc(k)}</p>{"".join(f"<p>{esc(v)}</p>" for v in vals)}</div>' for k, vals in PROOF_COLS)
+    proof = "".join(f'<div class="pc"><p class="pk">{esc(k)}</p>{"".join(f"<p>{esc(v)}</p>" for v in vals)}</div>' for k, vals in cfg.get("proof_cols", PROOF_COLS))
     how = []
     for run, rest, imgs in HOW:
         ev = ""

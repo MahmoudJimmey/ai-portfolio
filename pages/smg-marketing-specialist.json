@@ -2,7 +2,7 @@
  "path": "smg-marketing-specialist/index.html",
  "base": "../",
  "title": "Mahmoud Gamal, Marketing Specialist for SMG",
- "desc": "Marketing Specialist · Paid Social & SEO · AI Content Publishing",
+ "desc": "Marketing Specialist \u00b7 Paid Social & SEO \u00b7 AI Content Publishing",
  "statement": "Digital marketer in Cairo who plans campaigns, coordinates designers and agencies, and publishes daily with an AI workflow.",
  "order": [
   "autologist",
@@ -62,5 +62,39 @@
  "contact_prompt": [
   "Hiring at SMG?",
   "Tell me in one line."
+ ],
+ "proof_cols": [
+  [
+   "Paid media",
+   [
+    "Meta Ads campaigns",
+    "Google Ads (Search certified)",
+    "Creative and media briefs"
+   ]
+  ],
+  [
+   "Video",
+   [
+    "50K+ TikTok views in 3 months",
+    "27K views on one review"
+   ]
+  ],
+  [
+   "Search",
+   [
+    "2 page-one keywords",
+    "190+ articles in 2 years",
+    "4+ Upwork clients",
+    "100% client retention"
+   ]
+  ],
+  [
+   "Automation",
+   [
+    "4 bots live around the clock",
+    "3 Instagram brands run by agents",
+    "EGP 0 in API spend"
+   ]
+  ]
  ]
 }
