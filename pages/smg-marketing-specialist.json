@@ -1,0 +1,61 @@
+{
+ "path": "smg-marketing-specialist/index.html",
+ "base": "../",
+ "title": "Mahmoud Gamal, Marketing Specialist for SMG",
+ "desc": "Marketing Specialist · Campaign Planning & Digital Growth",
+ "statement": "Marketing Specialist experienced in developing creative campaigns, managing budgets, and executing multi-channel digital strategies.",
+ "order": [
+  "autologist",
+  "scoopbot",
+  "consultant",
+  "seosuite",
+  "ta2keed"
+ ],
+ "fit_title": "What SMG asks for",
+ "fit_intro": "My marketing background aligns with SMG's requirements, noting honest partial matches on the degree discipline and residency location.",
+ "fit": [
+  [
+   "Bachelor's degree in business administration",
+   "Partial match. Holds a B.Sc. in Civil Engineering from Alexandria University.",
+   "auto_1"
+  ],
+  [
+   "At least 2 years in marketing",
+   "Brings 3.5 years of experience in the marketing department plus 3 years in real-estate sales.",
+   "auto_2"
+  ],
+  [
+   "Fluent in English",
+   "Demonstrates professional English proficiency alongside native Arabic.",
+   "auto_3"
+  ],
+  [
+   "Excellent computer skills",
+   "Proficient across GA4, GTM, Looker Studio, Search Console, and marketing automation tools.",
+   "scoop_1"
+  ],
+  [
+   "Giza Resident",
+   "Partial match. Resides in El Sherouk, Cairo, Egypt.",
+   "cons_1"
+  ],
+  [
+   "Yearly marketing plan and budget",
+   "Experienced in managing media budgets up to EGP 10M/month and planning campaigns.",
+   "cons_2"
+  ]
+ ],
+ "letter": [
+  "My career spans 3.5 years of digital marketing experience, combining campaign management, content creation, and performance tracking across high-budget environments.",
+  "In my current role at The Address Investments, I have managed an EGP 10M/month ad budget, delivered a 1.45% average Meta CTR, and driven 700 qualified leads in a single month through 10 to 12 monthly campaign activations.",
+  "SMG's five decades of excellence in Egypt's automotive sector as the sole importer of Porsche, Scania, and Harley-Davidson represents an inspiring legacy of brand leadership where I can apply my automotive content expertise and marketing skills.",
+  "I look forward to contributing to your marketing plans, social media activities, and promotional campaigns while growing within your professional team."
+ ],
+ "role": "Senior Digital Marketing Specialist, The Address Investments",
+ "stage_default": "autologist",
+ "footer_img": "auto_1",
+ "contact_prompt": [
+  "Hiring at SMG?",
+  "Tell me in one line."
+ ]
+}
