@@ -2,7 +2,7 @@
  "path": "horizon-egypt-developments-marketing-executive/index.html",
  "base": "../",
  "title": "Mahmoud Gamal, Marketing Executive for Horizon Egypt Developments",
- "desc": "Marketing Executive · Real-Estate Campaigns · Digital & Content",
+ "desc": "Marketing Executive \u00b7 Real-Estate Campaigns \u00b7 Digital & Content",
  "statement": "Real-estate marketer in Cairo who plans campaigns, coordinates designers and agencies, and reports on performance.",
  "order": [
   "scoopbot",
@@ -62,5 +62,39 @@
  "contact_prompt": [
   "Hiring at Horizon?",
   "Tell me in one line."
+ ],
+ "proof_cols": [
+  [
+   "Paid media",
+   [
+    "Meta Ads campaigns",
+    "Google Ads (Search certified)",
+    "Creative and media briefs"
+   ]
+  ],
+  [
+   "Video",
+   [
+    "50K+ TikTok views in 3 months",
+    "27K views on one review"
+   ]
+  ],
+  [
+   "Search",
+   [
+    "2 page-one keywords",
+    "190+ articles in 2 years",
+    "4+ Upwork clients",
+    "100% client retention"
+   ]
+  ],
+  [
+   "Automation",
+   [
+    "4 bots live around the clock",
+    "3 Instagram brands run by agents",
+    "EGP 0 in API spend"
+   ]
+  ]
  ]
 }
