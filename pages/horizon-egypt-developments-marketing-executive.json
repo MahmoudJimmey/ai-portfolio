@@ -1,0 +1,66 @@
+{
+ "path": "horizon-egypt-developments-marketing-executive/index.html",
+ "base": "../",
+ "title": "Mahmoud Gamal, Marketing Executive for Horizon Egypt Developments",
+ "desc": "Marketing Executive · Real-Estate Campaigns · Digital & Content",
+ "statement": "Real-estate marketer in Cairo who plans campaigns, coordinates designers and agencies, and reports on performance.",
+ "order": [
+  "scoopbot",
+  "consultant",
+  "autologist",
+  "seosuite",
+  "ta2keed"
+ ],
+ "fit_title": "What Horizon Egypt Developments asks for",
+ "fit_intro": "Matched line by line to the posting, with the partial matches marked.",
+ "fit": [
+  [
+   "Bachelor's in Marketing or Business",
+   "Partial match. B.Sc. in Civil Engineering, plus marketing certifications from Google, Meta and the University of London.",
+   "auto_1"
+  ],
+  [
+   "2 to 3 years of marketing experience",
+   "Several years across SEO, content and paid social in real estate.",
+   "scoop_1"
+  ],
+  [
+   "Real-estate industry experience",
+   "Property consultant, real-estate SEO writer, and daily content for a real-estate news brand.",
+   "scoop_2"
+  ],
+  [
+   "Plan and execute campaigns",
+   "I brief creatives and media for real-estate campaigns and plan the content calendar with the agency.",
+   "cons_2"
+  ],
+  [
+   "Coordinate with teams and agencies",
+   "I work with designers, content creators and an outside agency every day.",
+   "scoop_sp"
+  ],
+  [
+   "Marketing materials and production",
+   "I direct content production, from scripts and on-camera videos to carousels on the designer's templates.",
+   "scoop_3"
+  ],
+  [
+   "Events and promotional activities",
+   "Partial match. I have supported launch content and vendors but have not run a full event on my own.",
+   "cons_1"
+  ]
+ ],
+ "letter": [
+  "I started in civil engineering and property consulting, then moved into real-estate SEO and content, and now run paid social and daily publishing for a real-estate news brand.",
+  "My strongest proof for this role is the daily work: planning campaigns, briefing designers and media buyers, working with an agency, and reporting on what works.",
+  "Horizon is looking for someone who understands real estate and can coordinate people and campaigns. I know how buyers decide and how developers' sales teams work.",
+  "I would like to join the team, support your campaigns and events, and grow with the company."
+ ],
+ "role": "Senior Digital Marketing Specialist, The Address Investments",
+ "stage_default": "scoopbot",
+ "footer_img": "auto_1",
+ "contact_prompt": [
+  "Hiring at Horizon?",
+  "Tell me in one line."
+ ]
+}
