@@ -1,61 +1,121 @@
 {
+ "layout": "story",
  "path": "schneider-electric-marcom-business-partner/index.html",
  "base": "../",
  "title": "Mahmoud Gamal, MarCom business partner for Schneider Electric",
- "desc": "MarCom Business Partner · Content Strategy & BTL Activations",
- "statement": "Delivering integrated marketing campaigns, content strategy, and data-driven customer experiences aligned with business objectives.",
- "order": [
-  "scoopbot",
-  "autologist",
-  "consultant",
-  "seosuite",
-  "ta2keed"
- ],
- "fit_title": "What Schneider Electric asks for",
- "fit_intro": "Here is how my hands-on background in activation management, digital strategy, and analytics aligns with Schneider Electric requirements, along with honest partial matches.",
- "fit": [
+ "desc": "Civil engineer turned digital marketer in Cairo. Campaign coordination, content and AI tools that remove busywork.",
+ "accent": "#1b7a52",
+ "headline": "Marketing that is planned, briefed and shipped on time.",
+ "sub": "Civil engineer turned digital marketer in Cairo. I coordinate agencies and creators, and build AI tools that remove busywork.",
+ "for_line": "Written for the MarCom Business Partner role at Schneider Electric.",
+ "story_title": "From the building site to the campaign",
+ "story_lead": "Four jobs, one habit: get many people moving toward the same deadline.",
+ "story": [
   [
-   "Event & BTL activation management",
-   "Kept up 10–12 campaign activations per month by coordinating creative teams and media buyers with full brand governance.",
-   "scoop_sp"
+   "2020",
+   "Site engineer",
+   "Supervised roadworks and infrastructure at a naval base in Matruh, coordinating contractors, site teams and military stakeholders.",
+   "how to keep many parties on one deadline."
   ],
   [
-   "Customer journey & personalized efforts",
-   "Aligned creative briefs, media spend, and CRM lead intake to drive 700 qualified leads in a single month across 4 campaigns.",
-   "scoop_1"
+   "2021",
+   "Property consultant",
+   "Three years advising buyers and investors and working daily with developers' sales teams in New Cairo.",
+   "how people decide to buy, and what a real lead looks like."
   ],
   [
-   "Data analysis & campaign optimization",
-   "Turned GA4 and Looker Studio performance data into creative briefs and optimization recommendations that produced a 1.45% average Meta CTR.",
-   "scoop_2"
+   "2023",
+   "SEO and content",
+   "190+ SEO articles in two years at EstateBook, then technical SEO at The Address Holding and freelance clients on Upwork.",
+   "what search rewards, and how to read the data."
   ],
   [
-   "Content strategy & brand storytelling",
-   "Authored over 190 SEO articles and produced multi-platform video content generating 470K+ plays in one month.",
-   "auto_1"
-  ],
-  [
-   "Cross-functional team collaboration",
-   "Coordinated contractors, site teams, and military stakeholders on infrastructure projects during engineering service, and align sales with marketing today.",
-   "cons_1"
-  ],
-  [
-   "Building-systems & automation domain",
-   "Partial match. Engineering background provides strong technical literacy, though focus has been real estate, automotive, and digital automation rather than BMS products.",
-   "cons_2"
+   "2026",
+   "Campaigns and AI tools",
+   "At The Address Investments I run paid social, present on camera, brief an agency and a designer, and publish daily for Address Scoop with a workflow I built.",
+   "the brief matters more than the tool."
   ]
  ],
- "letter": [
-  "My professional journey combines civil engineering precision, hands-on real-estate sales, and multi-channel digital marketing. Having managed physical infrastructure sites as well as large-scale digital campaigns, I understand how to bridge technical domain knowledge with clear customer communications.",
-  "At The Address Investments, I coordinated 10–12 campaign activations per month and managed briefs across an EGP 10M/month ad budget. By translating GA4 and Looker Studio insights into targeted content and aligning media spend with CRM lead intake, I generated 700 qualified leads in a single month and delivered a 1.45% average Meta CTR.",
-  "Schneider Electric's focus on turning sustainability ambitions into action through automation, electrification, and digitization resonates with my engineering foundation and automated marketing workflows. I admire your commitment to impactful customer experiences and inclusive corporate values.",
-  "In this MarCom Business Partner role, I aim to combine brand management, BTL activations, and data analytics to design cohesive customer journeys across Saudi Arabia and support Schneider Electric's growth."
+ "stats_title": "Numbers I can back up",
+ "stats": [
+  [
+   "190+",
+   "SEO articles in two years"
+  ],
+  [
+   "2",
+   "keywords on Google page one"
+  ],
+  [
+   "50K+",
+   "TikTok views in 3 months on my own car brand"
+  ],
+  [
+   "4+",
+   "freelance clients, all retained"
+  ]
  ],
- "role": "Senior Digital Marketing Specialist, The Address Investments",
- "stage_default": "scoopbot",
- "footer_img": "scoop_sp",
- "contact_prompt": [
-  "Interested?",
-  "Tell me in one line."
- ]
+ "proof_title": "Three things I built and run",
+ "proof_lead": "These are live systems. Every image is real output.",
+ "cases": [
+  [
+   "scoopbot",
+   "For a MarCom team: a content calendar that does not depend on someone retyping."
+  ],
+  [
+   "autologist",
+   "For a brand: I know the full cycle from research to publishing, on camera and off."
+  ],
+  [
+   "consultant",
+   "For sales: launches, prices and brochures filed per project, ready for the team."
+  ]
+ ],
+ "fit_title": "What Schneider Electric asks for",
+ "fit_intro": "Matched to the posting. One line is only a partial match, and it says so.",
+ "fit": [
+  [
+   "Activations and events",
+   "I coordinate creators, designers and media buyers on every campaign launch, with brand guidelines on every deliverable.",
+   "Match"
+  ],
+  [
+   "Customer journey and personalization",
+   "I align creative briefs, media spend and CRM lead intake with what sales needs to convert.",
+   "Match"
+  ],
+  [
+   "Data analysis and optimization",
+   "I turn GA4 and Looker Studio data into creative briefs and optimization recommendations.",
+   "Match"
+  ],
+  [
+   "Content strategy and storytelling",
+   "190+ SEO articles over two years, plus on-camera video for a real estate brand.",
+   "Match"
+  ],
+  [
+   "Third-party partners",
+   "I brief and coordinate an external agency and a designer day to day.",
+   "Match"
+  ],
+  [
+   "Cross-functional collaboration",
+   "From site engineering to sales to marketing, my work has always sat between teams.",
+   "Match"
+  ],
+  [
+   "Large physical events and building systems",
+   "Partial match. I have coordinated launches but have not run a large physical event alone, and I have no building-systems product marketing yet. My engineering degree gives me the technical base to learn it.",
+   "Partial match"
+  ]
+ ],
+ "why_title": "Why this role",
+ "why": [
+  "Schneider Electric turns sustainability goals into practical work through automation and digitization. That is the kind of marketing I like: technical, specific and useful to the customer.",
+  "I come from engineering, so I can read the product. I come from sales, so I know what the customer asks. I would like to bring both to your team and learn the events side with you."
+ ],
+ "role": "Digital Marketing Specialist and Video Presenter, The Address Investments",
+ "contact_title": "Let's talk about the role.",
+ "hero_img": "scoop_1"
 }

@@ -288,11 +288,17 @@ def load_bot_pages():
         for f in sorted(d.glob("*.json")):
             cfg = json.loads(f.read_text(encoding="utf-8"))
             cfg["fit"] = [tuple(x) for x in cfg["fit"]]
+            for k in ("story", "cases", "stats"):
+                if k in cfg: cfg[k] = [tuple(x) for x in cfg[k]]
             PAGES.setdefault(f.stem, cfg)
 
 if __name__ == "__main__":
     load_bot_pages()
     for cfg in PAGES.values():
         out = ROOT / cfg["path"]; out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(page(cfg), encoding="utf-8")
+        if cfg.get("layout") == "story":
+            from story_page import page_story
+            out.write_text(page_story(cfg, PROJECTS, EMAIL, LINKEDIN, GITHUB), encoding="utf-8")
+        else:
+            out.write_text(page(cfg), encoding="utf-8")
         print("wrote", out)
