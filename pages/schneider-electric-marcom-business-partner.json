@@ -1,0 +1,61 @@
+{
+ "path": "schneider-electric-marcom-business-partner/index.html",
+ "base": "../",
+ "title": "Mahmoud Gamal, MarCom business partner for Schneider Electric",
+ "desc": "MarCom Business Partner · Content Strategy & BTL Activations",
+ "statement": "Delivering integrated marketing campaigns, content strategy, and data-driven customer experiences aligned with business objectives.",
+ "order": [
+  "scoopbot",
+  "autologist",
+  "consultant",
+  "seosuite",
+  "ta2keed"
+ ],
+ "fit_title": "What Schneider Electric asks for",
+ "fit_intro": "Here is how my hands-on background in activation management, digital strategy, and analytics aligns with Schneider Electric requirements, along with honest partial matches.",
+ "fit": [
+  [
+   "Event & BTL activation management",
+   "Kept up 10–12 campaign activations per month by coordinating creative teams and media buyers with full brand governance.",
+   "scoop_sp"
+  ],
+  [
+   "Customer journey & personalized efforts",
+   "Aligned creative briefs, media spend, and CRM lead intake to drive 700 qualified leads in a single month across 4 campaigns.",
+   "scoop_1"
+  ],
+  [
+   "Data analysis & campaign optimization",
+   "Turned GA4 and Looker Studio performance data into creative briefs and optimization recommendations that produced a 1.45% average Meta CTR.",
+   "scoop_2"
+  ],
+  [
+   "Content strategy & brand storytelling",
+   "Authored over 190 SEO articles and produced multi-platform video content generating 470K+ plays in one month.",
+   "auto_1"
+  ],
+  [
+   "Cross-functional team collaboration",
+   "Coordinated contractors, site teams, and military stakeholders on infrastructure projects during engineering service, and align sales with marketing today.",
+   "cons_1"
+  ],
+  [
+   "Building-systems & automation domain",
+   "Partial match. Engineering background provides strong technical literacy, though focus has been real estate, automotive, and digital automation rather than BMS products.",
+   "cons_2"
+  ]
+ ],
+ "letter": [
+  "My professional journey combines civil engineering precision, hands-on real-estate sales, and multi-channel digital marketing. Having managed physical infrastructure sites as well as large-scale digital campaigns, I understand how to bridge technical domain knowledge with clear customer communications.",
+  "At The Address Investments, I coordinated 10–12 campaign activations per month and managed briefs across an EGP 10M/month ad budget. By translating GA4 and Looker Studio insights into targeted content and aligning media spend with CRM lead intake, I generated 700 qualified leads in a single month and delivered a 1.45% average Meta CTR.",
+  "Schneider Electric's focus on turning sustainability ambitions into action through automation, electrification, and digitization resonates with my engineering foundation and automated marketing workflows. I admire your commitment to impactful customer experiences and inclusive corporate values.",
+  "In this MarCom Business Partner role, I aim to combine brand management, BTL activations, and data analytics to design cohesive customer journeys across Saudi Arabia and support Schneider Electric's growth."
+ ],
+ "role": "Senior Digital Marketing Specialist, The Address Investments",
+ "stage_default": "scoopbot",
+ "footer_img": "scoop_sp",
+ "contact_prompt": [
+  "Interested?",
+  "Tell me in one line."
+ ]
+}
