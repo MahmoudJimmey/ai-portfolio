@@ -290,7 +290,8 @@ def load_bot_pages():
             cfg["fit"] = [tuple(x) for x in cfg["fit"]]
             for k in ("story", "cases", "stats"):
                 if k in cfg: cfg[k] = [tuple(x) for x in cfg[k]]
-            PAGES.setdefault(f.stem, cfg)
+            if cfg.get("layout") == "story": PAGES[f.stem] = cfg
+            else: PAGES.setdefault(f.stem, cfg)
 
 if __name__ == "__main__":
     load_bot_pages()

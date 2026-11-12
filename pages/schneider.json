@@ -1,0 +1,122 @@
+{
+ "layout": "story",
+ "path": "schneider/index.html",
+ "base": "../",
+ "title": "Mahmoud Gamal, marketing engineer for the built environment",
+ "desc": "Civil engineer turned senior digital marketer in Cairo. Demand generation, market intelligence and AI tools for the building ecosystem.",
+ "accent": "#2f6b8a",
+ "headline": "Marketing that speaks engineering.",
+ "sub": "Civil engineer turned digital marketer in Cairo. I read the technical product, know the buyers, and build the campaigns and tools around them.",
+ "for_line": "Written for the Digital Buildings Senior Marketing Engineer role at Schneider Electric.",
+ "story_title": "From the building site to the campaign",
+ "story_lead": "Four jobs, one habit: get many people moving toward the same deadline.",
+ "story": [
+  [
+   "2020",
+   "Site engineer",
+   "Supervised roadworks and infrastructure at a naval base in Matruh, coordinating contractors, site teams and military stakeholders.",
+   "how to keep many parties on one deadline."
+  ],
+  [
+   "2021",
+   "Property consultant",
+   "Three years advising buyers and investors and working daily with developers' sales teams in New Cairo.",
+   "how people decide to buy, and what a real lead looks like."
+  ],
+  [
+   "2023",
+   "SEO and content",
+   "190+ SEO articles in two years at EstateBook, then technical SEO at The Address Holding and freelance clients on Upwork.",
+   "what search rewards, and how to read the data."
+  ],
+  [
+   "2026",
+   "Campaigns and AI tools",
+   "At The Address Investments I run paid social, present on camera, brief an agency and a designer, and publish daily for Address Scoop with a workflow I built.",
+   "the brief matters more than the tool."
+  ]
+ ],
+ "stats_title": "Numbers I can back up",
+ "stats": [
+  [
+   "190+",
+   "SEO articles in two years"
+  ],
+  [
+   "2",
+   "keywords on Google page one"
+  ],
+  [
+   "50K+",
+   "TikTok views in 3 months on my own car brand"
+  ],
+  [
+   "4+",
+   "freelance clients, all retained"
+  ]
+ ],
+ "proof_title": "Three things I built and run",
+ "proof_lead": "These are live systems. Every image is real output.",
+ "cases": [
+  [
+   "consultant",
+   "Launches, prices and brochures filed per project for the sales team."
+  ],
+  [
+   "scoopbot",
+   "A content calendar that does not depend on someone retyping."
+  ],
+  [
+   "seosuite",
+   "Audits and monitoring that report on their own."
+  ]
+ ],
+ "fit_title": "What Schneider Electric asks for",
+ "fit_intro": "Matched line by line to the Regional Digital Buildings Senior Marketing Engineer role. One line is a partial match, and it says so.",
+ "fit": [
+  [
+   "Engineering degree",
+   "B.Sc. Civil Engineering, Alexandria University, then field engineer on naval-base infrastructure.",
+   "Match"
+  ],
+  [
+   "Developers, consultants and end users",
+   "Three years as a property consultant at The Address Investments, Coldwell Banker and aqarpedia, and a tool that tracks every developer launch.",
+   "Match"
+  ],
+  [
+   "Market trends and competitive insight",
+   "Daily market briefs on launches, price revisions, rates and regulation, plus competitor discovery from search results.",
+   "Match"
+  ],
+  [
+   "Demand generation and campaigns",
+   "I align creative briefs, media spend and CRM lead intake with what sales needs to convert.",
+   "Match"
+  ],
+  [
+   "Track performance and ROI",
+   "I turn GA4 and Looker Studio data into creative briefs and optimization recommendations.",
+   "Match"
+  ],
+  [
+   "Positioning and storytelling",
+   "190+ SEO articles over two years, plus on-camera video and daily publishing for a news brand.",
+   "Match"
+  ],
+  [
+   "Bridge sales, channel and marketing",
+   "I coordinate content, design and media buying against sales targets, and write technical specs for developers.",
+   "Match"
+  ]
+ ],
+ "why_title": "Why this role",
+ "why": [
+  "I started on site. After civil engineering at Alexandria University I supervised roadworks and infrastructure at the 3rd of July naval base, coordinating contractors and site teams.",
+  "Then I spent three years on the other side of the building: selling and advising on residential and mixed-use projects, working daily with developers, consultants and the people who live in what they build.",
+  "Digital buildings sit where all of that meets. I understand the engineering, I know the people who specify and buy, and I know how to turn a market into a pipeline."
+ ],
+ "role": "Digital Marketing Specialist and Video Presenter, The Address Investments",
+ "contact_title": "Let us talk about the role.",
+ "hero_img": "cons_1"
+}

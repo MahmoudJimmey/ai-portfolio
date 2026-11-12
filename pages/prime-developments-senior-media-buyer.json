@@ -1,71 +1,122 @@
 {
+ "layout": "story",
  "path": "prime-developments-senior-media-buyer/index.html",
  "base": "../",
  "title": "Mahmoud Gamal, Senior Media Buyer for Prime Developments",
  "desc": "Senior Media Buyer · Real Estate Performance Campaigns · Meta & Google Ads",
- "statement": "Data-driven media buying and real estate performance marketing expertise for Prime Developments.",
- "order": [
-  "consultant",
-  "seosuite",
-  "scoopbot",
-  "autologist",
-  "ta2keed"
+ "accent": "#0f766e",
+ "headline": "Media buying for real estate, from the data.",
+ "sub": "Digital marketer in Cairo. I brief media buyers, read GA4 and Looker Studio, and connect ad spend to lead quality.",
+ "for_line": "Written for the Senior Media Buyer role at Prime Developments.",
+ "story_title": "From the building site to the campaign",
+ "story_lead": "Four jobs, one habit: get many people moving toward the same deadline.",
+ "story": [
+  [
+   "2020",
+   "Site engineer",
+   "Supervised roadworks and infrastructure at a naval base in Matruh, coordinating contractors, site teams and military stakeholders.",
+   "how to keep many parties on one deadline."
+  ],
+  [
+   "2021",
+   "Property consultant",
+   "Three years advising buyers and investors and working daily with developers' sales teams in New Cairo.",
+   "how people decide to buy, and what a real lead looks like."
+  ],
+  [
+   "2023",
+   "SEO and content",
+   "190+ SEO articles in two years at EstateBook, then technical SEO at The Address Holding and freelance clients on Upwork.",
+   "what search rewards, and how to read the data."
+  ],
+  [
+   "2026",
+   "Campaigns and AI tools",
+   "At The Address Investments I run paid social, present on camera, brief an agency and a designer, and publish daily for Address Scoop with a workflow I built.",
+   "the brief matters more than the tool."
+  ]
+ ],
+ "stats_title": "Numbers I can back up",
+ "stats": [
+  [
+   "190+",
+   "SEO articles in two years"
+  ],
+  [
+   "2",
+   "keywords on Google page one"
+  ],
+  [
+   "50K+",
+   "TikTok views in 3 months on my own car brand"
+  ],
+  [
+   "4+",
+   "freelance clients, all retained"
+  ]
+ ],
+ "proof_title": "Three things I built and run",
+ "proof_lead": "These are live systems. Every image is real output.",
+ "cases": [
+  [
+   "consultant",
+   "Launches, prices and brochures filed per project for the sales team."
+  ],
+  [
+   "seosuite",
+   "Audits and monitoring that report on their own."
+  ],
+  [
+   "scoopbot",
+   "A content calendar that does not depend on someone retyping."
+  ]
  ],
  "fit_title": "What Prime Developments asks for",
  "fit_intro": "Reviewing how my background in real estate performance marketing aligns with the Senior Media Buyer requirements at Prime Developments, noting one transparent gap.",
  "fit": [
   [
-   "3+ years of experience in Media Buying",
-   "Over three years of digital marketing experience managing an EGP 10M/month ad budget and multi-channel campaigns.",
-   "scoop_1"
-  ],
-  [
    "Real Estate experience is highly preferred",
    "Extensive background as a property consultant and digital specialist in the Egyptian real estate sector.",
-   "cons_1"
+   "Match"
   ],
   [
    "Meta Ads & TikTok Ads",
    "Strong hands-on experience scaling campaigns on Meta Ads, alongside growing branded content on TikTok.",
-   "auto_1"
+   "Match"
   ],
   [
    "Google Ads Search & Display",
    "Certified in Google Ads Search with solid experience across performance and search campaigns.",
-   "scoop_1"
+   "Match"
   ],
   [
    "Strong understanding of SEO",
    "Ran full-funnel SEO strategies, secured page-one rankings for competitive keywords, and published 190+ SEO articles.",
-   "scoop_2"
+   "Match"
   ],
   [
    "Lead Generation & Retargeting",
-   "Drove 700 qualified leads in a single month across four simultaneous real-estate campaigns.",
-   "scoop_1"
+   "I align creative briefs, media spend and CRM lead intake with what sales needs to convert.",
+   "Match"
   ],
   [
    "Experience with CRM & Lead Tracking",
    "Aligned CRM lead intake with sales conversion targets and managed campaign reporting dashboards.",
-   "cons_2"
+   "Match"
   ],
   [
    "Direct reports in media buying",
    "Partial match. I coordinate content creators, graphic designers, and media agencies rather than managing direct reports.",
-   "scoop_sp"
+   "Partial match"
   ]
  ],
- "letter": [
+ "why_title": "Why this role",
+ "why": [
   "My path bridges civil engineering, property consultancy, and digital marketing, giving me a rare dual perspective on real estate buyers and technical performance data.",
-  "In my current role at The Address Investments, I manage an EGP 10M/month ad budget, drive 700 qualified leads in a single month across four simultaneous real-estate campaigns, and achieve a 1.45% average Meta CTR.",
   "Prime Developments stands out for its strong market presence in Cairo, and I want to bring my hands-on expertise in Meta Ads, Google Ads Search, and lead generation to scale your upcoming projects.",
   "I look forward to discussing how my data-driven campaign optimization and real-estate market knowledge can directly contribute to your growth targets."
  ],
- "role": "Senior Digital Marketing Specialist, The Address Investments",
- "stage_default": "scoopbot",
- "footer_img": "scoop_1",
- "contact_prompt": [
-  "Interested?",
-  "Tell me in one line."
- ]
+ "role": "Digital Marketing Specialist and Video Presenter, The Address Investments",
+ "contact_title": "Let us talk about the role.",
+ "hero_img": "scoop_1"
 }

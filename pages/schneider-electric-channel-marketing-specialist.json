@@ -1,66 +1,117 @@
 {
+ "layout": "story",
  "path": "schneider-electric-channel-marketing-specialist/index.html",
  "base": "../",
  "title": "Mahmoud Gamal, Channel Marketing Specialist for Schneider Electric",
  "desc": "Channel Marketing Specialist · Partner Enablement & GTM Strategy",
- "statement": "Tailoring digital marketing strategy, partner enablement toolkits, and data-driven campaign execution to expand Schneider Electric partner ecosystems across Dubai.",
- "order": [
-  "scoopbot",
-  "consultant",
-  "seosuite",
-  "autologist",
-  "ta2keed"
+ "accent": "#1f5fbf",
+ "headline": "Partner marketing, clear content, clean data.",
+ "sub": "Civil engineer turned digital marketer in Cairo. I coordinate content, partners and campaigns and report what worked.",
+ "for_line": "Written for the Channel Marketing Specialist role at Schneider Electric.",
+ "story_title": "From the building site to the campaign",
+ "story_lead": "Four jobs, one habit: get many people moving toward the same deadline.",
+ "story": [
+  [
+   "2020",
+   "Site engineer",
+   "Supervised roadworks and infrastructure at a naval base in Matruh, coordinating contractors, site teams and military stakeholders.",
+   "how to keep many parties on one deadline."
+  ],
+  [
+   "2021",
+   "Property consultant",
+   "Three years advising buyers and investors and working daily with developers' sales teams in New Cairo.",
+   "how people decide to buy, and what a real lead looks like."
+  ],
+  [
+   "2023",
+   "SEO and content",
+   "190+ SEO articles in two years at EstateBook, then technical SEO at The Address Holding and freelance clients on Upwork.",
+   "what search rewards, and how to read the data."
+  ],
+  [
+   "2026",
+   "Campaigns and AI tools",
+   "At The Address Investments I run paid social, present on camera, brief an agency and a designer, and publish daily for Address Scoop with a workflow I built.",
+   "the brief matters more than the tool."
+  ]
+ ],
+ "stats_title": "Numbers I can back up",
+ "stats": [
+  [
+   "190+",
+   "SEO articles in two years"
+  ],
+  [
+   "2",
+   "keywords on Google page one"
+  ],
+  [
+   "50K+",
+   "TikTok views in 3 months on my own car brand"
+  ],
+  [
+   "4+",
+   "freelance clients, all retained"
+  ]
+ ],
+ "proof_title": "Three things I built and run",
+ "proof_lead": "These are live systems. Every image is real output.",
+ "cases": [
+  [
+   "scoopbot",
+   "A content calendar that does not depend on someone retyping."
+  ],
+  [
+   "consultant",
+   "Launches, prices and brochures filed per project for the sales team."
+  ],
+  [
+   "seosuite",
+   "Audits and monitoring that report on their own."
+  ]
  ],
  "fit_title": "What Schneider Electric asks for",
  "fit_intro": "Here is how my campaign experience and technical background align with the Channel Marketing Specialist role at Schneider Electric, outlining transparent partial matches where applicable.",
  "fit": [
   [
    "Design and execute integrated marketing campaigns",
-   "Managed 10–12 campaign activations per month across paid and digital channels, managing an EGP 10M/month budget and driving 700 qualified leads in a single month.",
-   "scoop_1"
+   "I coordinate creators, designers and media buyers on every campaign launch, with brand guidelines on every deliverable.",
+   "Match"
   ],
   [
    "Develop content and partner enablement toolkits",
    "Built automated tracking systems to collate project brochures and launch data, designing multi-asset GTM carousels and structured partner collateral.",
-   "cons_1"
-  ],
-  [
-   "Experience in energy, automation, or building systems",
-   "Partial match. Holds a B.Sc. in Civil Engineering and published 190+ articles on smart homes and sustainability, but lacks direct BMS product marketing experience.",
-   "cons_2"
-  ],
-  [
-   "5 years experience in channel or B2B marketing",
-   "Partial match. Offers over 3.5 years in digital marketing, 3 years in sales advisory, and 1 year in field civil engineering, totaling over 7 years of professional experience.",
-   "scoop_2"
-  ],
-  [
-   "Proficiency with marketing platforms and CRM",
-   "Partial match. Proficient in CRM lead management, GA4, GTM, Looker Studio, and Python-based marketing automation, but does not claim Marketo or HubSpot credentials.",
-   "ta2keed"
+   "Match"
   ],
   [
    "Cross-functional collaboration and stakeholder alignment",
    "Coordinated designers, creators, media buyers, and site teams while ensuring strict brand-guideline compliance across every external campaign deliverable.",
-   "scoop_3"
+   "Match"
   ],
   [
    "Event and content management",
    "Managed end-to-end content cycles, producing bilingual scripts, technical articles, and on-camera presentations tailored to distinct market segments.",
-   "auto_1"
+   "Match"
+  ],
+  [
+   "Experience in energy, automation, or building systems",
+   "Partial match. Holds a B.Sc. in Civil Engineering and published 190+ articles on smart homes and sustainability, but lacks direct BMS product marketing experience.",
+   "Partial match"
+  ],
+  [
+   "Proficiency with marketing platforms and CRM",
+   "Partial match. Proficient in CRM lead management, GA4, GTM, Looker Studio, and Python-based marketing automation, but does not claim Marketo or HubSpot credentials.",
+   "Partial match"
   ]
  ],
- "letter": [
+ "why_title": "Why this role",
+ "why": [
   "My career combines a B.Sc. in Civil Engineering, 3 years of commercial sales advisory, and over 3.5 years of digital marketing strategy. This mix allows me to understand technical product ecosystems and build marketing programs that resonate with commercial partners.",
-  "In my recent work, I managed an EGP 10M/month advertising budget, generated 700 qualified leads in a single month, and kept up 10–12 campaign activations per month. I also built AI content automation engines to deliver structured market intelligence and branded assets efficiently.",
   "Schneider Electric's focus on energy efficiency, industrial automation, and expanding the EcoXpert and Alliance Partner Programs represents an exciting environment to apply structured partner enablement and digital GTM strategies.",
   "I look forward to leveraging my experience in multi-channel campaign execution, cross-functional coordination, and content architecture to drive partner recruitment, engagement, and recurring service growth across the region."
  ],
- "role": "Senior Digital Marketing Specialist, The Address Investments",
- "stage_default": "scoopbot",
- "footer_img": "scoop_1",
- "contact_prompt": [
-  "Interested?",
-  "Tell me in one line."
- ]
+ "role": "Digital Marketing Specialist and Video Presenter, The Address Investments",
+ "contact_title": "Let us talk about the role.",
+ "hero_img": "scoop_1"
 }

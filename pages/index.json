@@ -1,0 +1,122 @@
+{
+ "layout": "story",
+ "path": "index.html",
+ "base": "",
+ "title": "Mahmoud Gamal, AI marketing and automation",
+ "desc": "Senior digital marketer in Cairo who builds AI agents that research, write, design and publish marketing content.",
+ "accent": "#1f5fbf",
+ "headline": "AI agents that publish, then wait for my ok.",
+ "sub": "Digital marketer in Cairo. I build AI workflows that do the reading, drafting and checking, while people keep the judgement.",
+ "for_line": "Written for MG Digital's AI Marketing Specialist role.",
+ "story_title": "From the building site to the campaign",
+ "story_lead": "Four jobs, one habit: get many people moving toward the same deadline.",
+ "story": [
+  [
+   "2020",
+   "Site engineer",
+   "Supervised roadworks and infrastructure at a naval base in Matruh, coordinating contractors, site teams and military stakeholders.",
+   "how to keep many parties on one deadline."
+  ],
+  [
+   "2021",
+   "Property consultant",
+   "Three years advising buyers and investors and working daily with developers' sales teams in New Cairo.",
+   "how people decide to buy, and what a real lead looks like."
+  ],
+  [
+   "2023",
+   "SEO and content",
+   "190+ SEO articles in two years at EstateBook, then technical SEO at The Address Holding and freelance clients on Upwork.",
+   "what search rewards, and how to read the data."
+  ],
+  [
+   "2026",
+   "Campaigns and AI tools",
+   "At The Address Investments I run paid social, present on camera, brief an agency and a designer, and publish daily for Address Scoop with a workflow I built.",
+   "the brief matters more than the tool."
+  ]
+ ],
+ "stats_title": "Numbers I can back up",
+ "stats": [
+  [
+   "190+",
+   "SEO articles in two years"
+  ],
+  [
+   "2",
+   "keywords on Google page one"
+  ],
+  [
+   "50K+",
+   "TikTok views in 3 months on my own car brand"
+  ],
+  [
+   "4+",
+   "freelance clients, all retained"
+  ]
+ ],
+ "proof_title": "Three things I built and run",
+ "proof_lead": "These are live systems. Every image is real output.",
+ "cases": [
+  [
+   "scoopbot",
+   "A content calendar that does not depend on someone retyping."
+  ],
+  [
+   "autologist",
+   "I know the full cycle from research to publishing, on camera and off."
+  ],
+  [
+   "consultant",
+   "Launches, prices and brochures filed per project for the sales team."
+  ]
+ ],
+ "fit_title": "What MG Digital asks for",
+ "fit_intro": "Matched line by line to the AI Marketing Specialist role.",
+ "fit": [
+  [
+   "AI-powered marketing solutions",
+   "ScoopBot and Autologist research, write, design and publish for live Instagram brands every day.",
+   "Match"
+  ],
+  [
+   "Automate repetitive marketing work",
+   "The launch tracker files every brochure and price list on its own, and the newsroom drafts posts four times a day without me.",
+   "Match"
+  ],
+  [
+   "AI content generation and optimisation",
+   "English and Egyptian-Arabic copy, AI images with a vision check, and a humanizer that is not allowed to change numbers.",
+   "Match"
+  ],
+  [
+   "Analyse campaign data with AI",
+   "I turn GA4 and Looker Studio data into creative briefs and optimization recommendations.",
+   "Match"
+  ],
+  [
+   "ChatGPT, Claude, Gemini, prompt engineering",
+   "Production prompts with few-shot examples, rule memory and fact-check chains across five AI providers.",
+   "Match"
+  ],
+  [
+   "Zapier-style automation",
+   "Event pipelines on cron, webhooks, Telegram, WhatsApp and the Instagram API, written to run around the clock.",
+   "Match"
+  ],
+  [
+   "Python",
+   "The daily intelligence digest, the trend scout and Ta2keed are Python.",
+   "Match"
+  ]
+ ],
+ "why_title": "Why this role",
+ "why": [
+  "I came to marketing the long way round. I studied civil engineering, supervised roadworks at a naval base, then spent three years selling property in New Cairo before I wrote my first SEO article.",
+  "That path is why I build the way I do. Sales taught me what a qualified lead really is. Writing 190 articles taught me what a search engine rewards. Leading creative on a large Meta budget taught me that the brief matters more than the tool.",
+  "AI is where those meet. My agents do the reading, drafting and checking that used to fill a marketer's day, and people keep the judgement. Nothing goes out without someone saying ok."
+ ],
+ "role": "Digital Marketing Specialist and Video Presenter, The Address Investments",
+ "contact_title": "Let us talk about the role.",
+ "hero_img": "scoop_1"
+}

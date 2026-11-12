@@ -1,100 +1,122 @@
 {
+ "layout": "story",
  "path": "smg-marketing-specialist/index.html",
  "base": "../",
  "title": "Mahmoud Gamal, Marketing Specialist for SMG",
- "desc": "Marketing Specialist \u00b7 Paid Social & SEO \u00b7 AI Content Publishing",
- "statement": "Digital marketer in Cairo who plans campaigns, coordinates designers and agencies, and publishes daily with an AI workflow.",
- "order": [
-  "autologist",
-  "scoopbot",
-  "consultant",
-  "seosuite",
-  "ta2keed"
+ "desc": "Marketing Specialist · Paid Social & SEO · AI Content Publishing",
+ "accent": "#0f766e",
+ "headline": "Campaigns planned, briefed and published.",
+ "sub": "Digital marketer in Cairo who plans campaigns, coordinates designers and agencies, and publishes daily with an AI workflow.",
+ "for_line": "Written for the Marketing Specialist role at SMG.",
+ "story_title": "From the building site to the campaign",
+ "story_lead": "Four jobs, one habit: get many people moving toward the same deadline.",
+ "story": [
+  [
+   "2020",
+   "Site engineer",
+   "Supervised roadworks and infrastructure at a naval base in Matruh, coordinating contractors, site teams and military stakeholders.",
+   "how to keep many parties on one deadline."
+  ],
+  [
+   "2021",
+   "Property consultant",
+   "Three years advising buyers and investors and working daily with developers' sales teams in New Cairo.",
+   "how people decide to buy, and what a real lead looks like."
+  ],
+  [
+   "2023",
+   "SEO and content",
+   "190+ SEO articles in two years at EstateBook, then technical SEO at The Address Holding and freelance clients on Upwork.",
+   "what search rewards, and how to read the data."
+  ],
+  [
+   "2026",
+   "Campaigns and AI tools",
+   "At The Address Investments I run paid social, present on camera, brief an agency and a designer, and publish daily for Address Scoop with a workflow I built.",
+   "the brief matters more than the tool."
+  ]
+ ],
+ "stats_title": "Numbers I can back up",
+ "stats": [
+  [
+   "190+",
+   "SEO articles in two years"
+  ],
+  [
+   "2",
+   "keywords on Google page one"
+  ],
+  [
+   "50K+",
+   "TikTok views in 3 months on my own car brand"
+  ],
+  [
+   "4+",
+   "freelance clients, all retained"
+  ]
+ ],
+ "proof_title": "Three things I built and run",
+ "proof_lead": "These are live systems. Every image is real output.",
+ "cases": [
+  [
+   "autologist",
+   "I know the full cycle from research to publishing, on camera and off."
+  ],
+  [
+   "scoopbot",
+   "A content calendar that does not depend on someone retyping."
+  ],
+  [
+   "consultant",
+   "Launches, prices and brochures filed per project for the sales team."
+  ]
  ],
  "fit_title": "What SMG asks for",
  "fit_intro": "Matched line by line to the posting, with the partial matches marked.",
  "fit": [
   [
-   "Bachelor's degree in business administration",
-   "Partial match. B.Sc. in Civil Engineering, plus marketing certifications from Google, Meta and the University of London.",
-   "auto_1"
-  ],
-  [
    "At least 2 years in marketing",
    "Several years across SEO, content and paid social in real estate.",
-   "auto_2"
+   "Match"
   ],
   [
    "Campaign ideas and marketing plans",
    "Brief creatives and media for real-estate campaigns and plan the content calendar with the agency.",
-   "cons_2"
+   "Match"
   ],
   [
    "Web, SEO/SEM, email and social campaigns",
    "SEO specialist, Google Ads search certified, and I manage paid and organic social.",
-   "scoop_1"
+   "Match"
   ],
   [
    "Daily social media publishing",
    "I publish daily for Address Scoop through an AI workflow I built.",
-   "scoop_3"
+   "Match"
   ],
   [
    "Report performance and ROI",
    "I turn GA4 and Looker Studio data into briefs and optimisation points.",
-   "scoop_2"
+   "Match"
+  ],
+  [
+   "Bachelor's degree in business administration",
+   "Partial match. B.Sc. in Civil Engineering, plus marketing certifications from Google, Meta and the University of London.",
+   "Partial match"
   ],
   [
    "Work with external vendors and events",
    "Partial match. I work with agencies and designers daily, but I have not run a full event on my own.",
-   "scoop_sp"
+   "Partial match"
   ]
  ],
- "letter": [
+ "why_title": "Why this role",
+ "why": [
   "I started in civil engineering and property consulting, then moved into SEO and content, and now run paid social and daily publishing for a real-estate news brand.",
   "My strongest proof for this job is the daily work: planning campaigns, briefing designers and media buyers, working with an agency on pillars and a content calendar, and publishing every day through an AI workflow I built.",
-  "SMG markets Porsche, Scania, Harley-Davidson, spare parts and garage equipment to very different audiences. I want to do that kind of work, and my automotive content and technical background help.",
-  "I would like to join the team in Giza, learn event execution with central marketing, and take on the yearly plan."
+  "SMG markets Porsche, Scania, Harley-Davidson, spare parts and garage equipment to very different audiences. I want to do that kind of work, and my automotive content and technical background help."
  ],
- "role": "Senior Digital Marketing Specialist, The Address Investments",
- "stage_default": "autologist",
- "footer_img": "auto_1",
- "contact_prompt": [
-  "Hiring at SMG?",
-  "Tell me in one line."
- ],
- "proof_cols": [
-  [
-   "Paid media",
-   [
-    "Meta Ads campaigns",
-    "Google Ads (Search certified)",
-    "Creative and media briefs"
-   ]
-  ],
-  [
-   "Video",
-   [
-    "50K+ TikTok views in 3 months",
-    "27K views on one review"
-   ]
-  ],
-  [
-   "Search",
-   [
-    "2 page-one keywords",
-    "190+ articles in 2 years",
-    "4+ Upwork clients",
-    "100% client retention"
-   ]
-  ],
-  [
-   "Automation",
-   [
-    "4 bots live around the clock",
-    "3 Instagram brands run by agents",
-    "EGP 0 in API spend"
-   ]
-  ]
- ]
+ "role": "Digital Marketing Specialist and Video Presenter, The Address Investments",
+ "contact_title": "Let us talk about the role.",
+ "hero_img": "auto_1"
 }

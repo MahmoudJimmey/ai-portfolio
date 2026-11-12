@@ -1,0 +1,122 @@
+{
+ "layout": "story",
+ "path": "hydepark/index.html",
+ "base": "../",
+ "title": "Mahmoud Gamal, senior marketing executive for Hyde Park",
+ "desc": "Digital marketer in Cairo with three years of property sales behind me. I run campaigns, brief agencies and read the numbers.",
+ "accent": "#1f5fbf",
+ "headline": "Real estate marketing, briefed and shipped.",
+ "sub": "Digital marketer in Cairo with three years of property sales behind me. I run campaigns, brief agencies and read the numbers.",
+ "for_line": "Written for the Digital Marketing Executive role at Hyde Park.",
+ "story_title": "From the building site to the campaign",
+ "story_lead": "Four jobs, one habit: get many people moving toward the same deadline.",
+ "story": [
+  [
+   "2020",
+   "Site engineer",
+   "Supervised roadworks and infrastructure at a naval base in Matruh, coordinating contractors, site teams and military stakeholders.",
+   "how to keep many parties on one deadline."
+  ],
+  [
+   "2021",
+   "Property consultant",
+   "Three years advising buyers and investors and working daily with developers' sales teams in New Cairo.",
+   "how people decide to buy, and what a real lead looks like."
+  ],
+  [
+   "2023",
+   "SEO and content",
+   "190+ SEO articles in two years at EstateBook, then technical SEO at The Address Holding and freelance clients on Upwork.",
+   "what search rewards, and how to read the data."
+  ],
+  [
+   "2026",
+   "Campaigns and AI tools",
+   "At The Address Investments I run paid social, present on camera, brief an agency and a designer, and publish daily for Address Scoop with a workflow I built.",
+   "the brief matters more than the tool."
+  ]
+ ],
+ "stats_title": "Numbers I can back up",
+ "stats": [
+  [
+   "190+",
+   "SEO articles in two years"
+  ],
+  [
+   "2",
+   "keywords on Google page one"
+  ],
+  [
+   "50K+",
+   "TikTok views in 3 months on my own car brand"
+  ],
+  [
+   "4+",
+   "freelance clients, all retained"
+  ]
+ ],
+ "proof_title": "Three things I built and run",
+ "proof_lead": "These are live systems. Every image is real output.",
+ "cases": [
+  [
+   "scoopbot",
+   "A content calendar that does not depend on someone retyping."
+  ],
+  [
+   "consultant",
+   "Launches, prices and brochures filed per project for the sales team."
+  ],
+  [
+   "autologist",
+   "I know the full cycle from research to publishing, on camera and off."
+  ]
+ ],
+ "fit_title": "What the Hyde Park role asks for",
+ "fit_intro": "Matched line by line to the Digital Marketing Executive listing. I am applying at senior level: each line is something I already do every week.",
+ "fit": [
+  [
+   "Execute campaigns across social, paid media and web",
+   "I coordinate creators, designers and media buyers on every campaign launch, with brand guidelines on every deliverable.",
+   "Match"
+  ],
+  [
+   "Engaging content in the brand's tone and visual guidelines",
+   "190+ SEO articles over two years, plus on-camera video and daily publishing for a news brand.",
+   "Match"
+  ],
+  [
+   "Work with digital and media-buying agencies",
+   "I brief and coordinate media buyers, an external agency and a designer day to day.",
+   "Match"
+  ],
+  [
+   "Monitor KPIs and find optimisations",
+   "I turn GA4 and Looker Studio data into creative briefs and optimization recommendations.",
+   "Match"
+  ],
+  [
+   "Market and competitor research",
+   "Daily briefs on developer launches, price revisions, rates and regulation, plus a tool that tracks every launch.",
+   "Match"
+  ],
+  [
+   "Social media management and scheduling",
+   "I run Instagram pages with content calendars and scheduled publishing, including three that my own tools automate.",
+   "Match"
+  ],
+  [
+   "Website and lead generation",
+   "I align creative briefs, media spend and CRM lead intake with what sales needs to convert.",
+   "Match"
+  ]
+ ],
+ "why_title": "Why this role",
+ "why": [
+  "I know New Cairo from the sales floor. Before marketing I spent three years as a property consultant at The Address Investments, Coldwell Banker and aqarpedia, showing buyers compounds and learning what makes a luxury buyer say yes.",
+  "I present on camera, I write in Arabic and English, I manage agencies, and I read the numbers. I also build AI tools that take the repetitive work off the team.",
+  "Hyde Park sets the bar for premium living in New Cairo and on the coast. I'd like to bring senior-level execution to the digital team."
+ ],
+ "role": "Digital Marketing Specialist and Video Presenter, The Address Investments",
+ "contact_title": "Let us talk about the role.",
+ "hero_img": "scoop_1"
+}

@@ -1,61 +1,112 @@
 {
+ "layout": "story",
  "path": "city-edge-digital-marketing-section-he/index.html",
  "base": "../",
  "title": "Mahmoud Gamal, Digital Marketing Section Head for City Edge",
  "desc": "Digital Marketing Section Head · Real Estate Campaigns · Lead Generation",
- "statement": "Digital marketing leader driving real estate lead generation, performance campaigns, and automated content engines.",
- "order": [
-  "scoopbot",
-  "seosuite",
-  "autologist",
-  "consultant",
-  "ta2keed"
+ "accent": "#2f6b8a",
+ "headline": "Real estate marketing led by the data.",
+ "sub": "Digital marketer in Cairo. I run campaigns and SEO for real estate brands and build the automation that keeps content moving.",
+ "for_line": "Written for the Digital Marketing Section Head role at City Edge.",
+ "story_title": "From the building site to the campaign",
+ "story_lead": "Four jobs, one habit: get many people moving toward the same deadline.",
+ "story": [
+  [
+   "2020",
+   "Site engineer",
+   "Supervised roadworks and infrastructure at a naval base in Matruh, coordinating contractors, site teams and military stakeholders.",
+   "how to keep many parties on one deadline."
+  ],
+  [
+   "2021",
+   "Property consultant",
+   "Three years advising buyers and investors and working daily with developers' sales teams in New Cairo.",
+   "how people decide to buy, and what a real lead looks like."
+  ],
+  [
+   "2023",
+   "SEO and content",
+   "190+ SEO articles in two years at EstateBook, then technical SEO at The Address Holding and freelance clients on Upwork.",
+   "what search rewards, and how to read the data."
+  ],
+  [
+   "2026",
+   "Campaigns and AI tools",
+   "At The Address Investments I run paid social, present on camera, brief an agency and a designer, and publish daily for Address Scoop with a workflow I built.",
+   "the brief matters more than the tool."
+  ]
+ ],
+ "stats_title": "Numbers I can back up",
+ "stats": [
+  [
+   "190+",
+   "SEO articles in two years"
+  ],
+  [
+   "2",
+   "keywords on Google page one"
+  ],
+  [
+   "50K+",
+   "TikTok views in 3 months on my own car brand"
+  ],
+  [
+   "4+",
+   "freelance clients, all retained"
+  ]
+ ],
+ "proof_title": "Three things I built and run",
+ "proof_lead": "These are live systems. Every image is real output.",
+ "cases": [
+  [
+   "scoopbot",
+   "A content calendar that does not depend on someone retyping."
+  ],
+  [
+   "seosuite",
+   "Audits and monitoring that report on their own."
+  ],
+  [
+   "autologist",
+   "I know the full cycle from research to publishing, on camera and off."
+  ]
  ],
  "fit_title": "What City Edge asks for",
  "fit_intro": "Here is how my professional background aligns with the requirements for the Digital Marketing Section Head role at City Edge Developments, including honest notes on gaps.",
  "fit": [
   [
    "Digital marketing strategy",
-   "Planned and managed overall digital marketing strategy, driving 700 qualified leads in a single month across 4 simultaneous campaigns.",
-   "scoop_1"
+   "I run daily market briefs on launches, price revisions, rates and regulation, checked against sources.",
+   "Match"
   ],
   [
    "Social media presence",
    "Planned and monitored ongoing company presence on social media like Instagram and Facebook with branded content.",
-   "scoop_2"
+   "Match"
   ],
   [
    "SEO and SEM adverts",
    "Launched optimized online adverts through SEO, SEM, and Google AdWords, securing Google page-one rankings for competitive keywords.",
-   "scoop_1"
+   "Match"
   ],
   [
    "Web analytics tools",
    "Measured performance of digital marketing efforts using GA4, Google Tag Manager, and Looker Studio.",
-   "scoop_1"
+   "Match"
   ],
   [
    "Real estate industry experience",
    "Brings 3 years in real estate sales plus extensive real estate marketing experience.",
-   "cons_1"
-  ],
-  [
-   "7+ years of total experience",
-   "Partial match. Brings about 3.5 years in marketing, 3 years in real estate sales, and 1 year as a site engineer.",
-   "cons_2"
+   "Match"
   ]
  ],
- "letter": [
+ "why_title": "Why this role",
+ "why": [
   "My path combines a B.Sc. in Civil Engineering from Alexandria University with hands-on experience in real estate sales, SEO, and digital marketing strategy in the Egyptian market.",
-  "For this role, my strongest proof is driving 700 qualified leads in a single month across 4 simultaneous real-estate campaigns and managing an EGP 10M/month ad budget with a 1.45% average Meta CTR.",
   "I am drawn to City Edge Developments because of your prominent presence in El Sheikh Zaid and across Egypt, where strategic real estate digital campaigns directly impact brand awareness and sales growth.",
   "At City Edge, I want to lead your digital marketing department, optimize online advertising, oversee campaign performance metrics, and build high-performing content engines."
  ],
- "role": "Senior Digital Marketing Specialist, The Address Investments",
- "stage_default": "scoopbot",
- "footer_img": "scoop_1",
- "contact_prompt": [
-  "Hiring at City Edge?",
-  "Tell me in one line."
- ]
+ "role": "Digital Marketing Specialist and Video Presenter, The Address Investments",
+ "contact_title": "Let us talk about the role.",
+ "hero_img": "scoop_1"
 }
