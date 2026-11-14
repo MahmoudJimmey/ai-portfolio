@@ -1,0 +1,110 @@
+{
+ "layout": "story",
+ "path": "supabase-aws-partner-marketing-manage/index.html",
+ "base": "../",
+ "title": "Mahmoud Gamal, AWS Partner Marketing Manager for Supabase",
+ "desc": "AWS Partner Marketing Manager · Content Strategy · Cross-Functional Coordination",
+ "accent": "#1b7a52",
+ "headline": "Building campaigns and technical content independently.",
+ "sub": "Marketer and automation builder executing campaigns and content strategies for fast-paced brands.",
+ "for_line": "Written for the AWS Partner Marketing Manager role at Supabase.",
+ "story_title": "From the building site to the campaign",
+ "story_lead": "My roles spanning digital marketing, SEO, content creation, and site engineering enable me to execute technical co-marketing campaigns independently.",
+ "story": [
+  [
+   "2020",
+   "Site engineer",
+   "Supervised roadworks and infrastructure at a naval base in Matruh, coordinating contractors, site teams and military stakeholders.",
+   "how to keep many parties on one deadline."
+  ],
+  [
+   "2021",
+   "Property consultant",
+   "Three years advising buyers and investors and working daily with developers' sales teams in New Cairo.",
+   "how people decide to buy, and what a real lead looks like."
+  ],
+  [
+   "2023",
+   "SEO and content",
+   "190+ SEO articles in two years at EstateBook, then technical SEO at The Address Holding and freelance clients on Upwork.",
+   "what search rewards, and how to read the data."
+  ],
+  [
+   "2026",
+   "Campaigns and AI tools",
+   "At The Address Investments I run paid social, present on camera, brief an agency and a designer, and publish daily for Address Scoop with a workflow I built.",
+   "the brief matters more than the tool."
+  ]
+ ],
+ "stats_title": "Numbers I can back up",
+ "stats": [
+  [
+   "190+",
+   "SEO articles in two years"
+  ],
+  [
+   "2",
+   "keywords on Google page one"
+  ],
+  [
+   "50K+",
+   "TikTok views in 3 months on my own car brand"
+  ],
+  [
+   "4+",
+   "freelance clients, all retained"
+  ]
+ ],
+ "proof_title": "Three things I built and run",
+ "proof_lead": "These are live systems. Every image is real output.",
+ "cases": [
+  [
+   "scoopbot",
+   "Automating multi-source content workflows mirrors partner enablement content production."
+  ],
+  [
+   "autologist",
+   "Driving brand visibility and content retention demonstrates strong storytelling and execution."
+  ],
+  [
+   "seosuite",
+   "Building comprehensive technical auditing tools proves execution capability for complex digital assets."
+  ]
+ ],
+ "fit_title": "What Supabase asks for",
+ "fit_intro": "My background aligns well with Supabase's campaign execution and content needs, while remaining honest about my partial matches in cloud partner platforms.",
+ "fit": [
+  [
+   "Partner marketing experience",
+   "Partial match. I have about 3.5 years in marketing and cross-functional coordination, but lack formal enterprise partner marketing experience.",
+   "Partial match"
+  ],
+  [
+   "Produce co-marketing content and assets",
+   "I produce automated bilingual content, case studies, and partner-facing documentation.",
+   "Match"
+  ],
+  [
+   "Strong writer and communicator",
+   "I write clear technical content and manage bilingual publishing workflows.",
+   "Match"
+  ],
+  [
+   "Execution-oriented autonomy",
+   "I build automated content engines and manage full campaign production cycles independently.",
+   "Match"
+  ],
+  [
+   "AWS Partner Central and ACE experience",
+   "Partial match. I have strong marketing automation skills but lack experience with AWS Partner Central, ACE, and Marketplace mechanisms.",
+   "Partial match"
+  ]
+ ],
+ "why_title": "Why this role",
+ "why": [
+  "While I bring strong execution, technical writing, and workflow automation experience, my main gap is a lack of direct enterprise partner marketing history with major cloud providers like AWS."
+ ],
+ "role": "Digital Marketing Specialist and Video Presenter, The Address Investments",
+ "contact_title": "Let us discuss the role.",
+ "hero_img": "scoop_1"
+}
