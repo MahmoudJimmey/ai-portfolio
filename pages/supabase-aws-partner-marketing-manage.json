@@ -5,11 +5,11 @@
  "title": "Mahmoud Gamal, AWS Partner Marketing Manager for Supabase",
  "desc": "AWS Partner Marketing Manager · Content Strategy · Cross-Functional Coordination",
  "accent": "#1b7a52",
- "headline": "Building campaigns and technical content independently.",
- "sub": "Marketer and automation builder executing campaigns and content strategies for fast-paced brands.",
+ "headline": "I build in the open and write it down.",
+ "sub": "Civil engineer turned marketer in Cairo. I release open-source AI agents, publish daily in English and Arabic, and ship campaigns on my own.",
  "for_line": "Written for the AWS Partner Marketing Manager role at Supabase.",
  "story_title": "From the building site to the campaign",
- "story_lead": "My roles spanning digital marketing, SEO, content creation, and site engineering enable me to execute technical co-marketing campaigns independently.",
+ "story_lead": "Four jobs, one habit: get many people moving toward the same deadline, then explain it clearly.",
  "story": [
   [
    "2020",
@@ -60,51 +60,57 @@
  "cases": [
   [
    "scoopbot",
-   "Automating multi-source content workflows mirrors partner enablement content production."
+   "A content pipeline that researches, drafts and checks, then waits for a person to approve. The same discipline partner content needs."
   ],
   [
-   "autologist",
-   "Driving brand visibility and content retention demonstrates strong storytelling and execution."
+   "ta2keed",
+   "An AI agent I released as open source on GitHub. Built for shop owners, written up so developers can read it."
   ],
   [
    "seosuite",
-   "Building comprehensive technical auditing tools proves execution capability for complex digital assets."
+   "Audits and monitoring that report on their own, the kind of tooling a small team can lean on."
   ]
  ],
  "fit_title": "What Supabase asks for",
- "fit_intro": "My background aligns well with Supabase's campaign execution and content needs, while remaining honest about my partial matches in cloud partner platforms.",
+ "fit_intro": "Matched to the posting. The biggest gap is partner marketing with a cloud provider, and I say so.",
  "fit": [
   [
-   "Partner marketing experience",
-   "Partial match. I have about 3.5 years in marketing and cross-functional coordination, but lack formal enterprise partner marketing experience.",
+   "Content and enablement assets",
+   "190+ SEO articles in two years, plus daily market briefs in English and Arabic, checked against sources.",
+   "Match"
+  ],
+  [
+   "Turn technical products into clear stories",
+   "I explain what I build in plain language, for example Ta2keed, the open-source agent that reached the final 15 in Egypt's Agents at Work hackathon.",
+   "Match"
+  ],
+  [
+   "Execution-oriented, high autonomy",
+   "I run my own newsroom bots, an SEO audit tool and an Arabic car brand end to end, with one approval tap from me.",
+   "Match"
+  ],
+  [
+   "Remote, asynchronous work",
+   "Telegram approvals, scheduled publishing and freelance clients abroad already work this way for me.",
+   "Match"
+  ],
+  [
+   "3 to 5+ years in partner or co-marketing",
+   "Partial match. About 3 years in marketing, coordinating an agency, a designer and creators. No AWS or cloud partner program yet.",
    "Partial match"
   ],
   [
-   "Produce co-marketing content and assets",
-   "I produce automated bilingual content, case studies, and partner-facing documentation.",
-   "Match"
-  ],
-  [
-   "Strong writer and communicator",
-   "I write clear technical content and manage bilingual publishing workflows.",
-   "Match"
-  ],
-  [
-   "Execution-oriented autonomy",
-   "I build automated content engines and manage full campaign production cycles independently.",
-   "Match"
-  ],
-  [
-   "AWS Partner Central and ACE experience",
-   "Partial match. I have strong marketing automation skills but lack experience with AWS Partner Central, ACE, and Marketplace mechanisms.",
+   "AWS Partner Central, ACE, Marketplace",
+   "Partial match. No hands-on experience yet. I would learn the programs in the first weeks.",
    "Partial match"
   ]
  ],
  "why_title": "Why this role",
  "why": [
-  "While I bring strong execution, technical writing, and workflow automation experience, my main gap is a lack of direct enterprise partner marketing history with major cloud providers like AWS."
+  "Supabase builds in the open and ships what it uses. I work the same way: my agents run real work every day, and I released Ta2keed as open source so others can read it and reuse it.",
+  "I have not run a cloud partner program, and this role is about shipping content and campaigns for AWS field teams. The content and the shipping I can do now. The partner mechanics I would learn fast, starting with Partner Central and ACE."
  ],
  "role": "Digital Marketing Specialist and Video Presenter, The Address Investments",
- "contact_title": "Let us discuss the role.",
+ "contact_title": "Let us talk about the role.",
  "hero_img": "scoop_1"
 }
