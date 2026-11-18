@@ -1,0 +1,111 @@
+{
+ "layout": "story",
+ "path": "nexford-crm-automation-specialist/index.html",
+ "base": "../",
+ "title": "Mahmoud Gamal, CRM & Automation Specialist for Nexford",
+ "desc": "CRM & Automation Specialist · Marketing Automation · Conversion Tracking",
+ "accent": "#1f5fbf",
+ "headline": "Automating marketing workflows and CRM lead processes",
+ "sub": "Digital specialist combining Python automation, conversion tracking, and campaign execution for scalable lead generation and student acquisition workflows.",
+ "for_line": "Written for the CRM & Automation Specialist role at Nexford.",
+ "story_title": "From the building site to the campaign",
+ "story_lead": "My background spans technical automation, marketing campaign execution, web analytics, and sales pipeline optimization.",
+ "story": [
+  [
+   "2020",
+   "Site engineer",
+   "Supervised roadworks and infrastructure at a naval base in Matruh, coordinating contractors, site teams and military stakeholders.",
+   "how to keep many parties on one deadline."
+  ],
+  [
+   "2021",
+   "Property consultant",
+   "Three years advising buyers and investors and working daily with developers' sales teams in New Cairo.",
+   "how people decide to buy, and what a real lead looks like."
+  ],
+  [
+   "2023",
+   "SEO and content",
+   "190+ SEO articles in two years at EstateBook, then technical SEO at The Address Holding and freelance clients on Upwork.",
+   "what search rewards, and how to read the data."
+  ],
+  [
+   "2026",
+   "Campaigns and AI tools",
+   "At The Address Investments I run paid social, present on camera, brief an agency and a designer, and publish daily for Address Scoop with a workflow I built.",
+   "the brief matters more than the tool."
+  ]
+ ],
+ "stats_title": "Numbers I can back up",
+ "stats": [
+  [
+   "190+",
+   "SEO articles in two years"
+  ],
+  [
+   "2",
+   "keywords on Google page one"
+  ],
+  [
+   "50K+",
+   "TikTok views in 3 months on my own car brand"
+  ],
+  [
+   "4+",
+   "freelance clients, all retained"
+  ]
+ ],
+ "proof_title": "Three things I built and run",
+ "proof_lead": "These are live systems. Every image is real output.",
+ "cases": [
+  [
+   "scoopbot",
+   "Demonstrates end-to-end automated research, content generation, and approval routing across multiple platforms."
+  ],
+  [
+   "seosuite",
+   "Proves capability in building full-scale technical monitoring and audit tools handling thousands of pages."
+  ],
+  [
+   "consultant",
+   "Highlights automated data collection from messaging channels to organize project data systematically."
+  ]
+ ],
+ "fit_title": "What Nexford asks for",
+ "fit_intro": "My technical automation background and analytics experience closely align with Nexford's operational goals, with clear context on specific CRM platforms.",
+ "fit": [
+  [
+   "CRM and lead management execution",
+   "Managed CRM lead flows and buyer qualification daily in real estate, connecting campaign data with sales teams.",
+   "Match"
+  ],
+  [
+   "Marketing automation and API integration",
+   "Built custom automation tools using Python, Node.js, Telegram/WhatsApp bots, and Instagram Graph API.",
+   "Match"
+  ],
+  [
+   "Analytics and conversion tracking setup",
+   "Wrote GTM, GA4, and Consent Mode v2 specifications for web developers to ensure accurate tracking.",
+   "Match"
+  ],
+  [
+   "Performance marketing and campaign tracking",
+   "Managed digital campaigns and turned GA4 and Looker Studio data into actionable creative briefs.",
+   "Match"
+  ],
+  [
+   "Enterprise CRM platform administration",
+   "Partial match. Extensive experience in CRM lead management and custom automation, but focused on custom API tools rather than deep platform administration.",
+   "Partial match"
+  ]
+ ],
+ "why_title": "Why this role",
+ "why": [
+  "Nexford University represents a modern approach to online education where automated systems and clear tracking directly power student acquisition. I am eager to bring my background in Python scripting, API integrations, and GA4 analytics to streamline Nexford's CRM and automation workflows.",
+  "While I bring strong technical capabilities in building custom marketing automation bots and analytics integrations, my CRM experience centers on lead management workflows rather than enterprise platform administration."
+ ],
+ "role": "Digital Marketing Specialist and Video Presenter, The Address Investments",
+ "contact_title": "Let us discuss the role.",
+ "hero_img": "scoop_1"
+}
