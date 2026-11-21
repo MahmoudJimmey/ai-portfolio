@@ -1,0 +1,111 @@
+{
+ "layout": "story",
+ "path": "everai-junior-performance-marketer/index.html",
+ "base": "../",
+ "title": "Mahmoud Gamal, Junior Performance Marketer (Remote - Bulgaria) for EverAI",
+ "desc": "Junior Performance Marketer · Meta & Google Ads · GA4 Analytics",
+ "accent": "#1b7a52",
+ "headline": "Data-driven campaign testing and analytics.",
+ "sub": "Performance-focused marketer combining certified search ads management, GA4 analytics, and automated workflow execution for continuous campaign growth.",
+ "for_line": "Written for the Junior Performance Marketer (Remote - Bulgaria) role at EverAI.",
+ "story_title": "From the building site to the campaign",
+ "story_lead": "My path through engineering, real estate sales, SEO, and digital marketing built my analytical campaign methodology.",
+ "story": [
+  [
+   "2020",
+   "Site engineer",
+   "Supervised roadworks and infrastructure at a naval base in Matruh, coordinating contractors, site teams and military stakeholders.",
+   "how to keep many parties on one deadline."
+  ],
+  [
+   "2021",
+   "Property consultant",
+   "Three years advising buyers and investors and working daily with developers' sales teams in New Cairo.",
+   "how people decide to buy, and what a real lead looks like."
+  ],
+  [
+   "2023",
+   "SEO and content",
+   "190+ SEO articles in two years at EstateBook, then technical SEO at The Address Holding and freelance clients on Upwork.",
+   "what search rewards, and how to read the data."
+  ],
+  [
+   "2026",
+   "Campaigns and AI tools",
+   "At The Address Investments I run paid social, present on camera, brief an agency and a designer, and publish daily for Address Scoop with a workflow I built.",
+   "the brief matters more than the tool."
+  ]
+ ],
+ "stats_title": "Numbers I can back up",
+ "stats": [
+  [
+   "190+",
+   "SEO articles in two years"
+  ],
+  [
+   "2",
+   "keywords on Google page one"
+  ],
+  [
+   "50K+",
+   "TikTok views in 3 months on my own car brand"
+  ],
+  [
+   "4+",
+   "freelance clients, all retained"
+  ]
+ ],
+ "proof_title": "Three things I built and run",
+ "proof_lead": "These are live systems. Every image is real output.",
+ "cases": [
+  [
+   "seosuite",
+   "Demonstrates my ability to build custom monitoring tools for rank and paid-search tracking."
+  ],
+  [
+   "scoopbot",
+   "Shows how I automate research and content workflows to scale campaign publishing."
+  ],
+  [
+   "autologist",
+   "Highlights data-driven hook testing and video content strategy that built rapid engagement."
+  ]
+ ],
+ "fit_title": "What EverAI asks for",
+ "fit_intro": "Here is how my experience aligns with EverAI requirements, including an honest location note.",
+ "fit": [
+  [
+   "Performance Marketing & Ads",
+   "Google Ads Search certified and experienced with Meta Ads Manager for lead generation and campaign architecture.",
+   "Match"
+  ],
+  [
+   "Conversion Tracking & Analytics",
+   "Wrote GTM, GA4, and Consent Mode v2 specs while analyzing performance via Looker Studio.",
+   "Match"
+  ],
+  [
+   "Creative Strategy & Testing",
+   "Turned GA4 performance data into creative briefs and optimized hooks based on viewer retention metrics.",
+   "Match"
+  ],
+  [
+   "Campaign Coordination",
+   "Coordinated content creators, graphic designers, and media buyers while maintaining strict brand guideline compliance.",
+   "Match"
+  ],
+  [
+   "Location / Remote Base",
+   "Partial match. Based in El Sherouk, Cairo, Egypt, whereas the listing indicates Remote from Bulgaria.",
+   "Partial match"
+  ]
+ ],
+ "why_title": "Why this role",
+ "why": [
+  "EverAI builds innovative AI products, and I am eager to apply my performance marketing foundation and analytical mindset to scale acquisition campaigns. With direct experience translating GA4 and Looker Studio data into creative briefs, I can help systematically test and optimize campaign messaging.",
+  "In this role, I will execute ad tests, build clear ROI reporting, and maintain smooth campaign workflows. My main gap is being based in Egypt rather than Bulgaria, but I operate comfortably in remote setups with professional English fluency."
+ ],
+ "role": "Digital Marketing Specialist and Video Presenter, The Address Investments",
+ "contact_title": "Let us talk about the role.",
+ "hero_img": "scoop_1"
+}
